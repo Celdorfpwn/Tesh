@@ -77,6 +77,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AttributesFactory\AttributesFactory.csproj">
+      <Project>{9d9886e5-e914-4621-9480-954bdd57166e}</Project>
+      <Name>AttributesFactory</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Roslyn\Roslyn.csproj">
       <Project>{8a4a86d0-c8c7-4c91-8243-75d419125b38}</Project>
       <Name>Roslyn</Name>

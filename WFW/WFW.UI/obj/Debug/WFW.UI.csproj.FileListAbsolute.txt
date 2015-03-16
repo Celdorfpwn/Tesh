@@ -23,3 +23,7 @@ D:\RealPojects\Projects\WFW\WFW.UI\obj\Debug\WFW.UI.csproj.GenerateResource.Cach
 D:\RealPojects\Projects\WFW\WFW.UI\obj\Debug\WFW.UI.exe
 D:\RealPojects\Projects\WFW\WFW.UI\obj\Debug\WFW.UI.pdb
 D:\RealPojects\Projects\WFW\WFW.UI\obj\Debug\WFW.UI.csprojResolveAssemblyReference.cache
+D:\RealPojects\Projects\WFW\WFW.UI\bin\Debug\AttributesFactory.dll
+D:\RealPojects\Projects\WFW\WFW.UI\bin\Debug\Attributes.dll
+D:\RealPojects\Projects\WFW\WFW.UI\bin\Debug\AttributesFactory.pdb
+D:\RealPojects\Projects\WFW\WFW.UI\bin\Debug\Attributes.pdb

@@ -16,17 +16,22 @@ namespace WpfParser
             Document = document;
         }
 
-        internal List<XmlAttribute> GetAttributes(string controlName, IEnumerable<string> controlLines)
+        internal IEnumerable<XmlAttribute> GetAttributes(string controlName, IEnumerable<string> controlLines)
         {
             List<XmlAttribute> attributes = new List<XmlAttribute>();
 
+            var lines = new List<string>();
+
+            
+
             foreach(var line in controlLines)
-            {
-                SetAttributes(attributes, line.Replace(controlName+".",String.Empty));
+            { 
+            //    SetAttributes(attributes, line.Replace(controlName+".",String.Empty));
+                var newLine = line.Replace(controlName + ".", String.Empty);
+                lines.Add(newLine);
             }
 
-
-            return attributes;
+            return AttributesFactory.AttributesFactory.GetAttributes(lines,Document);
         }
 
         private void SetAttributes(List<XmlAttribute> attributes, string line)

@@ -14,9 +14,6 @@ C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\WpfA
 D:\RealPojects\Projects\WFW\WpfApp\bin\Debug\WpfApp.exe.config
 D:\RealPojects\Projects\WFW\WpfApp\bin\Debug\WpfApp.exe
 D:\RealPojects\Projects\WFW\WpfApp\bin\Debug\WpfApp.pdb
-D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
-D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\MainWindow.baml
-D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\MainWindow.g.cs
 D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\App.g.cs
 D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
 D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\WpfApp.g.resources
@@ -24,3 +21,5 @@ D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\WpfApp.Properties.Resources.resourc
 D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.Cache
 D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\WpfApp.exe
 D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\WpfApp.pdb
+D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\Form1.baml
+D:\RealPojects\Projects\WFW\WpfApp\obj\Debug\Form1.g.cs

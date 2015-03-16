@@ -10,7 +10,6 @@ C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WindowsFormsApplicati
 D:\RealPojects\Projects\WFW\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
 D:\RealPojects\Projects\WFW\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
 D:\RealPojects\Projects\WFW\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
-D:\RealPojects\Projects\WFW\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
 D:\RealPojects\Projects\WFW\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 D:\RealPojects\Projects\WFW\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\RealPojects\Projects\WFW\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache

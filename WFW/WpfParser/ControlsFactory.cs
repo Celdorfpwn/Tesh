@@ -44,8 +44,6 @@ namespace WpfParser
                     return CreateButtonNode(controlName, controlLines);
                     
             }
-
-
             return null;
         }
 
@@ -54,7 +52,7 @@ namespace WpfParser
             
             XmlNode button = Document.CreateElement(Button, Document.DocumentElement.NamespaceURI);
             ButtonAttributesFactory attributesFactory = new ButtonAttributesFactory(Document);
-            List<XmlAttribute> attributes = attributesFactory.GetAttributes(controlName, controlLines);
+            var attributes = attributesFactory.GetAttributes(controlName, controlLines);
 
             foreach(var attribute in attributes)
             {

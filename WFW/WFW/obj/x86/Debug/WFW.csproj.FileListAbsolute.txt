@@ -40,3 +40,7 @@ D:\RealPojects\Projects\WFW\WFW\bin\Debug\Roslyn.pdb
 D:\RealPojects\Projects\WFW\WFW\obj\x86\Debug\WFW.csprojResolveAssemblyReference.cache
 D:\RealPojects\Projects\WFW\WFW\obj\x86\Debug\WFW.dll
 D:\RealPojects\Projects\WFW\WFW\obj\x86\Debug\WFW.pdb
+D:\RealPojects\Projects\WFW\WFW\bin\Debug\AttributesFactory.dll
+D:\RealPojects\Projects\WFW\WFW\bin\Debug\Attributes.dll
+D:\RealPojects\Projects\WFW\WFW\bin\Debug\AttributesFactory.pdb
+D:\RealPojects\Projects\WFW\WFW\bin\Debug\Attributes.pdb
