@@ -1,0 +1,17 @@
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Roslyn.dll
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Roslyn.pdb
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\obj\x86\Debug\Roslyn.csprojResolveAssemblyReference.cache
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\obj\x86\Debug\Roslyn.dll
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\obj\x86\Debug\Roslyn.pdb

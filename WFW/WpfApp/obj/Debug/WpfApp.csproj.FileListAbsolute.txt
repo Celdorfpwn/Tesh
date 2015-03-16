@@ -1,0 +1,13 @@
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\WpfApp.csprojResolveAssemblyReference.cache
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\MainWindow.baml
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\App.g.cs
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\WpfApp_MarkupCompile.cache
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\WpfApp.g.resources
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\WpfApp.Properties.Resources.resources
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\WpfApp.csproj.GenerateResource.Cache
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\bin\Debug\WpfApp.exe.config
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\bin\Debug\WpfApp.exe
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\bin\Debug\WpfApp.pdb
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\WpfApp.exe
+C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfApp\obj\Debug\WpfApp.pdb
