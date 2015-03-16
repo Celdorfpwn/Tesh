@@ -15,3 +15,19 @@ C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\bin\Debug\Syst
 C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\obj\x86\Debug\Roslyn.csprojResolveAssemblyReference.cache
 C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\obj\x86\Debug\Roslyn.dll
 C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\Roslyn\obj\x86\Debug\Roslyn.pdb
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Roslyn.dll
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Roslyn.pdb
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.dll
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\System.Collections.Immutable.dll
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\System.Reflection.Metadata.dll
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.xml
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\System.Collections.Immutable.xml
+D:\RealPojects\Projects\WFW\Roslyn\bin\Debug\System.Reflection.Metadata.xml
+D:\RealPojects\Projects\WFW\Roslyn\obj\x86\Debug\Roslyn.dll
+D:\RealPojects\Projects\WFW\Roslyn\obj\x86\Debug\Roslyn.pdb

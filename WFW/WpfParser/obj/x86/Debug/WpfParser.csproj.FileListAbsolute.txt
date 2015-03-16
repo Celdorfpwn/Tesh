@@ -17,3 +17,22 @@ C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfParser\bin\Debug\S
 C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfParser\obj\x86\Debug\WpfParser.csprojResolveAssemblyReference.cache
 C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfParser\obj\x86\Debug\WpfParser.dll
 C:\Users\Apostol\documents\visual studio 2013\Projects\WFW\WpfParser\obj\x86\Debug\WpfParser.pdb
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\WpfParser.dll
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\WpfParser.pdb
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Microsoft.CodeAnalysis.dll
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Roslyn.dll
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\System.Collections.Immutable.dll
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\System.Reflection.Metadata.dll
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Roslyn.pdb
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Microsoft.CodeAnalysis.xml
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\System.Collections.Immutable.xml
+D:\RealPojects\Projects\WFW\WpfParser\bin\Debug\System.Reflection.Metadata.xml
+D:\RealPojects\Projects\WFW\WpfParser\obj\x86\Debug\WpfParser.csprojResolveAssemblyReference.cache
+D:\RealPojects\Projects\WFW\WpfParser\obj\x86\Debug\WpfParser.dll
+D:\RealPojects\Projects\WFW\WpfParser\obj\x86\Debug\WpfParser.pdb

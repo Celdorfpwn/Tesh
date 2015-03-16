@@ -1,0 +1,28 @@
+﻿<Window x:Class="WFW.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WFW" Height="200" Width="600" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="6*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        
+        <Label Grid.Column="0" Grid.Row="0" Content="Form designer.cs path *" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+        <Button Grid.Column="2" Grid.Row="0" VerticalAlignment="Center" Content="Browse" Click="BrowseDesigner"></Button>
+        <Label Grid.Column="0" Grid.Row="1" Content="xaml.path *" VerticalAlignment="Center" HorizontalAlignment="Center"></Label>
+        <Button Grid.Column="2" Grid.Row="1" VerticalAlignment="Center" Content="Browse" Click="BrowseXaml"></Button>
+        
+        <Button Grid.Column="2" Grid.Row="2" Content="Parse" Click="Parse"></Button>
+        
+    </Grid>
+</Window>

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp", "WpfApp\WpfApp.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{F12E054A-CCF7-486D-B3DB-72BFC33E48D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFW.UI", "WFW.UI\WFW.UI.csproj", "{4A3D711D-D9A7-4941-8E37-22C3A254DE34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,16 @@ Global
 		{F12E054A-CCF7-486D-B3DB-72BFC33E48D5}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{F12E054A-CCF7-486D-B3DB-72BFC33E48D5}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F12E054A-CCF7-486D-B3DB-72BFC33E48D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{4A3D711D-D9A7-4941-8E37-22C3A254DE34}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
