@@ -11,6 +11,7 @@ namespace Attributes
     {
         public bool Processed { get; protected set; }
 
+        protected string Wpf { get; set; }
 
         public XmlAttribute XmlAttribute { get; protected set; }
 
@@ -18,9 +19,18 @@ namespace Attributes
         {
         }
 
-        public bool Validate(string value)
+        protected void Validate(string value,XmlDocument xmlDocument)
         {
-            return !value.Contains("this.");
+            if(!value.Contains("this."))
+            {
+                 XmlAttribute = xmlDocument.CreateAttribute(Wpf);
+                 XmlAttribute.Value = value;
+                Processed = true;
+            }
+            else
+            {
+                    Processed = false;
+            }
         }
     }
 }

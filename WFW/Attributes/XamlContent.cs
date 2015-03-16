@@ -15,21 +15,14 @@ namespace Attributes
         public XamlContent(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
+            Wpf = WpfText;
+
             var value = line.Trim().Replace("this.Text = ", String.Empty)
                 .Replace("\"", String.Empty)
                 .Replace(";", String.Empty)
                 .Trim();
 
-            if(Validate(value))
-            {
-                XmlAttribute = xmlDocument.CreateAttribute(WpfText);
-                XmlAttribute.Value = value;
-                Processed = true;
-            }
-            else
-            {
-                Processed = false;
-            }
+            Validate(value, xmlDocument);
         }
     }
 }

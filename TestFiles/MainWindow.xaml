@@ -1,13 +1,13 @@
 <Window x:Class="WindowsFormsApplication1.Form1" Width="300" Height="300" Name="Form1" Title="Form1" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <Grid>
     <Canvas>
-      <Button TabIndex="0" Content="button1" />
-      <Button TabIndex="1" Content="button2" />
-      <Button TabIndex="2" Content="button3" />
-      <Button TabIndex="3" Content="button4" />
-      <Button TabIndex="4" Content="button5" />
-      <Button TabIndex="5" Content="button6" />
-      <Button TabIndex="6" Content="button7" />
+      <Button Canvas.Top="70" Canvas.Left="65" TabIndex="0" Content="button1" />
+      <Button Canvas.Top="190" Canvas.Left="186" TabIndex="1" Content="button2" />
+      <Button Canvas.Top="173" Canvas.Left="37" TabIndex="2" Content="button3" />
+      <Button Canvas.Top="41" Canvas.Left="202" TabIndex="3" Content="button4" />
+      <Button Canvas.Top="13" Canvas.Left="37" TabIndex="4" Content="button5" />
+      <Button Canvas.Top="131" Canvas.Left="146" TabIndex="5" Content="button6" />
+      <Button Canvas.Top="117" Canvas.Left="13" TabIndex="6" Content="button7" />
     </Canvas>
   </Grid>
 </Window>

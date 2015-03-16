@@ -26,7 +26,6 @@ namespace WpfParser
 
             foreach(var line in controlLines)
             { 
-            //    SetAttributes(attributes, line.Replace(controlName+".",String.Empty));
                 var newLine = line.Replace(controlName + ".", String.Empty);
                 lines.Add(newLine);
             }

@@ -14,19 +14,11 @@ namespace Attributes
         public XamlTabIndex(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
+            Wpf = WpfTabIndex;
             var value = line.Trim().Replace("this.TabIndex = ", String.Empty)
                 .Replace(";", String.Empty).Trim();
 
-            if(Validate(value))
-            {
-                XmlAttribute = xmlDocument.CreateAttribute(WpfTabIndex);
-                XmlAttribute.Value = value;
-                Processed = true;
-            }
-            else
-            {
-                Processed = false;
-            }
+            Validate(value, xmlDocument);
         }
     }
 }
