@@ -6,9 +6,20 @@
       <Button Canvas.Top="13" Canvas.Left="37" Name="button5" Height="23" Width="75" TabIndex="4" Content="button5" />
       <Button Canvas.Top="117" Canvas.Left="13" Name="button7" Height="23" Width="75" TabIndex="6" Content="button7" />
       <Button Canvas.Top="117" Canvas.Left="137" Name="button1" Height="23" Width="75" TabIndex="7" Content="button1" />
-      <Button Canvas.Top="64" Canvas.Left="12" Name="button2" Height="23" Width="75" TabIndex="8" Content="button2" />
+      <Button Canvas.Top="42" Canvas.Left="12" Name="button2" Height="23" Width="75" TabIndex="8" Content="button2" />
       <Button Canvas.Top="222" Canvas.Left="181" Name="button6" Height="23" Width="75" TabIndex="9" Content="button6" />
-      <Button Canvas.Top="222" Canvas.Left="57" Name="button8" Height="23" Width="75" TabIndex="10" Content="button8" />
+      <Button Canvas.Top="229" Canvas.Left="75" Name="button8" Height="23" Width="75" TabIndex="10" Content="button8" />
+      <TextBox Canvas.Top="173" Canvas.Left="181" Name="textBox1" Height="20" Width="100" TabIndex="11" />
+      <TextBox Canvas.Top="85" Canvas.Left="137" Name="textBox2" Height="20" Width="100" TabIndex="12" Text="damn" />
+      <TextBox Canvas.Top="13" Canvas.Left="137" Name="textBox3" Height="20" Width="100" TabIndex="13" Text="baws" />
+      <TextBox Canvas.Top="203" Canvas.Left="13" Name="textBox4" Height="20" Width="100" TabIndex="14" />
+      <TextBox Canvas.Top="72" Canvas.Left="13" Name="textBox5" Height="20" Width="100" TabIndex="15" />
+      <Label Canvas.Top="147" Canvas.Left="49" Name="label1" Height="13" Width="35" TabIndex="16" Content="label1" Padding="0" />
+      <Label Canvas.Top="154" Canvas.Left="202" Name="label2" Height="13" Width="35" TabIndex="17" Content="label2" Padding="0" />
+      <Label Canvas.Top="99" Canvas.Left="52" Name="label3" Height="13" Width="35" TabIndex="18" Content="label3" Padding="0" />
+      <Label Canvas.Top="51" Canvas.Left="121" Name="label4" Height="13" Width="35" TabIndex="19" Content="label4" Padding="0" />
+      <Label Canvas.Top="203" Canvas.Left="114" Name="label5" Height="13" Width="35" TabIndex="20" Content="label5" Padding="0" />
+      <Label Canvas.Top="230" Canvas.Left="13" Name="label6" Height="13" Width="35" TabIndex="21" Content="label6" Padding="0" />
     </Canvas>
   </Grid>
 </Window>
