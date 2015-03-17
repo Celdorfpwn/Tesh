@@ -25,8 +25,10 @@ namespace AttributesFactory
                 }
             }
 
-            return attributes.Where(attribute => attribute.Processed)
-                .Select(attribute => attribute.XmlAttribute);
+            var ret = attributes.Where(attribute => attribute.Processed)
+                .Select(attribute => attribute.XmlAttribute).ToList();
+
+            return ret;
         }
 
     }

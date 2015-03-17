@@ -9,14 +9,43 @@ namespace XamlControls
 {
     public abstract class XamlControl
     {
-
         public bool Processed { get;private set; }
 
-        public XmlNode XmlNode { get;set; }
+        public XmlNode XmlNode { get;private set; }
 
-        public XamlControl(IEnumerable<string> lines,XmlDocument document)
+        protected abstract string  ControlType { get; }
+
+        protected abstract string XamlType { get; }
+
+        public XamlControl(IEnumerable<string> lines,XmlDocument document,string controlType,string controlName)
         {
+            if (Validate(controlType))
+            {
+                Processed = true;
+                XmlNode = document.CreateElement(XamlType, document.DocumentElement.NamespaceURI);
+                lines = ClearLines(controlName, lines);
+                AttributesFactory
+                    .AttributesFactory
+                    .GetAttributes(lines, document)
+                    .ToList()
+                    .ForEach(attribute => XmlNode.Attributes.Append(attribute));
+            }
+        }
 
+        private bool Validate(string controlType)
+        {
+            return controlType.Trim().Equals(ControlType);
+        }
+
+        private IEnumerable<string> ClearLines(string controlName,IEnumerable<string> controlLines)
+        {
+            var lines = new List<string>();
+            var remove = controlName + ".";
+            var controlIdentifier = "this." + controlName;
+            controlLines.Where(line => line.Contains(controlIdentifier)).ToList()
+                .ForEach(line => lines.Add(line.Replace(remove,string.Empty)));
+
+            return lines;
         }
     }
 }

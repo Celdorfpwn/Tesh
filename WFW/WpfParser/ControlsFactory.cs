@@ -21,12 +21,14 @@ namespace WpfParser
         {
             List<XmlNode> nodes = new List<XmlNode>();
 
-            foreach(var control in controls)
+            foreach (var control in controls)
             {
                 var controlName = control.Declaration.Variables.First().ToFullString();
                 var controlIdentifier = "this." + controlName;
                 var controlLines = lines.Where(line => line.Contains(controlIdentifier));
-                var controlNode = CreateControlNode(controlName, controlLines,control.Declaration.Type.ToFullString());
+
+
+                var controlNode = CreateControlNode(controlName, controlLines, control.Declaration.Type.ToFullString());
                 if (controlNode != null)
                 {
                     nodes.Add(controlNode);
@@ -52,12 +54,10 @@ namespace WpfParser
             
             XmlNode button = Document.CreateElement(Button, Document.DocumentElement.NamespaceURI);
             ButtonAttributesFactory attributesFactory = new ButtonAttributesFactory(Document);
-            var attributes = attributesFactory.GetAttributes(controlName, controlLines);
-
-            foreach(var attribute in attributes)
-            {
-                button.Attributes.Append(attribute);
-            }
+            attributesFactory
+                .GetAttributes(controlName, controlLines)
+                .ToList()
+                .ForEach(attribute => button.Attributes.Append(attribute));
 
 
             return button;

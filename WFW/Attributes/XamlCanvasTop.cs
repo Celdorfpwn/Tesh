@@ -22,7 +22,7 @@ namespace Attributes
                     .Split(',');
 
             if(value.Length>1 && value[0].Length<5)
-            Validate(value[1].Trim(), xmlDocument);
+               Validate(value[1].Trim(), xmlDocument);
         }
     }
 }

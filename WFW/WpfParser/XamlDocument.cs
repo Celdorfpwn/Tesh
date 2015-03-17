@@ -70,7 +70,8 @@ namespace WpfParser
 
             var controlsLines = File.ReadAllLines(WinForm).Where(line => line.Contains("this."));
 
-            var controls = ControlsFactory.GetControls(controlsLines, CodeSyntax.Fields);
+            var controls = XamlControlsFactory.XamlControlsFactory.GetControls(controlsLines,this,CodeSyntax.Fields).ToList(); 
+                //ControlsFactory.GetControls(controlsLines, CodeSyntax.Fields);
 
             foreach(XmlNode control in controls)
             {

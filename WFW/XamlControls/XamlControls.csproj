@@ -39,8 +39,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlTypes.cs" />
+    <Compile Include="XamlButton.cs" />
     <Compile Include="XamlControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AttributesFactory\AttributesFactory.csproj">
+      <Project>{9d9886e5-e914-4621-9480-954bdd57166e}</Project>
+      <Name>AttributesFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Attributes\Attributes.csproj">
+      <Project>{af624574-768b-48af-9a2a-301f0c18f637}</Project>
+      <Name>Attributes</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
