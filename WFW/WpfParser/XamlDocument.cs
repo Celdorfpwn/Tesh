@@ -15,8 +15,6 @@ namespace WpfParser
 
         private WindowAttributesFactory WindowAttributesFactory { get; set; }
 
-        private ControlsFactory ControlsFactory { get; set; }
-
         private string WinForm { get; set; }
 
         private string WpfXaml { get; set; }
@@ -29,7 +27,6 @@ namespace WpfParser
             WpfXaml = wpfXaml;
             CodeSyntax = new CodeSyntax(winForm);
             WindowAttributesFactory = new WindowAttributesFactory(this);
-            ControlsFactory = new ControlsFactory(this);
         }
 
         public void CreateXaml()
@@ -71,7 +68,6 @@ namespace WpfParser
             var controlsLines = File.ReadAllLines(WinForm).Where(line => line.Contains("this."));
 
             var controls = XamlControlsFactory.XamlControlsFactory.GetControls(controlsLines,this,CodeSyntax.Fields).ToList(); 
-                //ControlsFactory.GetControls(controlsLines, CodeSyntax.Fields);
 
             foreach(XmlNode control in controls)
             {
