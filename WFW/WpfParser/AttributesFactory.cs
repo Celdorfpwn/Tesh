@@ -30,11 +30,6 @@ namespace WpfParser
 
         private  void SetAttributes(List<XmlAttribute> attributes,string line)
         {
-            if(line.Contains(Name))
-            {
-                AddNameAttribute(attributes, line);
-                return;
-            }
             if(line.Contains(Text))
             {
                 AddTitleAttribute(attributes, line);
@@ -45,18 +40,6 @@ namespace WpfParser
                 AddClientSizeAttributes(attributes, line);
                 return;
             }
-        }
-
-        private void AddNameAttribute(List<XmlAttribute> attributes, string line)
-        {
-            var text = line.Trim()
-                .Replace("this.Name = ", string.Empty)
-                .Replace("\"", String.Empty)
-                .Replace(";", string.Empty);
-
-            var name = Document.CreateAttribute(Name);
-            name.Value = text;
-            attributes.Add(name);
         }
 
         private void AddTitleAttribute(List<XmlAttribute> attributes, string line)

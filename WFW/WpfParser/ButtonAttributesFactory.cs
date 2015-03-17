@@ -20,7 +20,9 @@ namespace WpfParser
         {
             var lines = new List<string>();
 
-            controlLines.ToList().ForEach(line => lines.Add(line.Replace(controlName + ".", String.Empty)));
+            var remove = controlName + ".";
+
+            controlLines.ToList().ForEach(line => lines.Add(line.Replace(remove, String.Empty)));
 
             return AttributesFactory.AttributesFactory.GetAttributes(lines,Document);
         }

@@ -10,6 +10,7 @@ namespace Attributes
     public class XamlWidth : XamlAttribute
     {
         private const string WpfWidth = "Width";
+
         public XamlWidth(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
