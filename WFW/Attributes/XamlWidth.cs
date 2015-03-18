@@ -9,13 +9,17 @@ namespace Attributes
 {
     public class XamlWidth : XamlAttribute
     {
-        private const string WpfWidth = "Width";
+        protected override string Wpf
+        {
+            get
+            {
+                return "Width";
+            }
+        } 
 
         public XamlWidth(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            Wpf = WpfWidth;
-
             var value = line.Trim()
                     .Replace("this.Size = new System.Drawing.Size(", string.Empty)
                     .Replace(");", string.Empty)

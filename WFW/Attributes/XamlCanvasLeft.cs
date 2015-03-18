@@ -9,13 +9,17 @@ namespace Attributes
 {
     public class XamlCanvasLeft : XamlAttribute
     {
-        private const string WpfCavasLeft = "Canvas.Left";
+        protected override string  Wpf 
+        {
+            get
+            {
+                return "Canvas.Left";
+            }
+        } 
 
         public XamlCanvasLeft(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            Wpf = WpfCavasLeft;
-
             var value = line.Trim()
                     .Replace("this.Location = new System.Drawing.Point(", string.Empty)
                     .Replace(");", string.Empty)

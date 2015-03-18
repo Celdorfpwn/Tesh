@@ -42,6 +42,7 @@
     <Compile Include="AttributesTypes.cs" />
     <Compile Include="XamlCanvasTop.cs" />
     <Compile Include="XamlAttribute.cs" />
+    <Compile Include="XamlClick.cs" />
     <Compile Include="XamlContent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XamlHeight.cs" />

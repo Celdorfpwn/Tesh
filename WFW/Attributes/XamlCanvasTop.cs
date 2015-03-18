@@ -9,13 +9,17 @@ namespace Attributes
 {
     public class XamlCanvasTop : XamlAttribute
     {
-        private const string WpfCavasTop = "Canvas.Top";
+        protected override string Wpf
+        {
+            get
+            {
+                return "Canvas.Top";
+            }
+        } 
 
         public XamlCanvasTop(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            Wpf = WpfCavasTop;
-
             var value = line.Trim()
                     .Replace("this.Location = new System.Drawing.Point(", string.Empty)
                     .Replace(");", string.Empty)

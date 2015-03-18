@@ -9,12 +9,17 @@ namespace Attributes
 {
     public class XamlName : XamlAttribute
     {
-        private const string WpfName = "Name";
+        protected override string Wpf
+        {
+            get
+            {
+                return "Name";
+            }
+        } 
 
         public XamlName(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            Wpf = WpfName;
             var value = line.Trim().Replace("this.Name = ", String.Empty)
                 .Replace("\"", String.Empty)
                 .Replace(";", String.Empty)

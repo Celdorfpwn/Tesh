@@ -9,12 +9,17 @@ namespace Attributes
 {
     public class XamlTabIndex : XamlAttribute
     {
-        private const string WpfTabIndex = "TabIndex";
+        protected override string Wpf
+        {
+            get
+            {
+                return "TabIndex";
+            }
+        } 
 
         public XamlTabIndex(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            Wpf = WpfTabIndex;
             var value = line.Trim().Replace("this.TabIndex = ", String.Empty)
                 .Replace(";", String.Empty).Trim();
 

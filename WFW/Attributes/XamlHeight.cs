@@ -9,13 +9,17 @@ namespace Attributes
 {
     public class XamlHeight : XamlAttribute
     {
-        private const string WpfHeight = "Height";
+        protected override string Wpf
+        {
+            get
+            {
+                return "Height";
+            }
+        } 
 
         public XamlHeight(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            Wpf = WpfHeight;
-
             var value = line.Trim()
                     .Replace("this.Size = new System.Drawing.Size(", string.Empty)
                     .Replace(");", string.Empty)

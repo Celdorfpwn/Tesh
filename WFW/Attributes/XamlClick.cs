@@ -7,28 +7,27 @@ using System.Xml;
 
 namespace Attributes
 {
-    public class XamlContent : XamlAttribute
+    public class XamlClick : XamlAttribute
     {
-
-        protected override string  Wpf 
+        protected override string Wpf
         {
             get
             {
-                return "Content";
+                return "Click";
             }
         }
 
-        public XamlContent(string line, XmlDocument xmlDocument)
+        public XamlClick(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            
-
-            var value = line.Trim().Replace("this.Text = ", String.Empty)
+            var value = line.Trim().Replace("this.Click += new System.EventHandler(this.", String.Empty)
                 .Replace("\"", String.Empty)
-                .Replace(";", String.Empty)
+                .Replace(");", String.Empty)
                 .Trim();
 
             Validate(value, xmlDocument);
         }
+ 
+        
     }
 }

@@ -3,7 +3,7 @@
         <Canvas>
             <Button Canvas.Top="173" Canvas.Left="37" Name="button3" Height="23" Width="75" TabIndex="2" Content="button3" />
             <Button Canvas.Top="41" Canvas.Left="202" Name="button4" Height="23" Width="75" TabIndex="3" Content="button4" />
-            <Button Canvas.Top="13" Canvas.Left="37" Name="button5" Height="23" Width="75" TabIndex="4" Content="button5" />
+            <Button Canvas.Top="13" Canvas.Left="37" Name="button5" Height="23" Width="75" TabIndex="4" Content="button5" Click="button5_Click" />
             <Button Canvas.Top="117" Canvas.Left="13" Name="button7" Height="23" Width="75" TabIndex="6" Content="button7" />
             <Button Canvas.Top="117" Canvas.Left="137" Name="button1" Height="23" Width="75" TabIndex="7" Content="button1" />
             <Button Canvas.Top="42" Canvas.Left="12" Name="button2" Height="23" Width="75" TabIndex="8" Content="button2" />

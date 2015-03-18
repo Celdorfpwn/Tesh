@@ -11,7 +11,7 @@ namespace Attributes
     {
         public bool Processed { get; protected set; }
 
-        protected string Wpf { get; set; }
+        protected abstract string Wpf { get; }
 
         public XmlAttribute XmlAttribute { get; protected set; }
 
