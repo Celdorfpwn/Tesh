@@ -41,6 +41,8 @@
   <ItemGroup>
     <Compile Include="ControlTypes.cs" />
     <Compile Include="XamlButton.cs" />
+    <Compile Include="XamlCheckBox.cs" />
+    <Compile Include="XamlComboBox.cs" />
     <Compile Include="XamlControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XamlLabel.cs" />

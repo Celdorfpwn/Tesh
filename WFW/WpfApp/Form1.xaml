@@ -1,4 +1,4 @@
-﻿<Window x:Class="WindowsFormsApplication1.Form1" Width="300" Height="300" Title="Form1" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+﻿<Window x:Class="WindowsFormsApplication1.Form1" Width="719" Height="479" Title="Form1" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
     <Grid>
         <Canvas>
             <Button Canvas.Top="173" Canvas.Left="37" Name="button3" Height="23" Width="75" TabIndex="2" Content="button3" />
@@ -20,6 +20,17 @@
             <Label Canvas.Top="51" Canvas.Left="121" Name="label4" Height="13" Width="35" TabIndex="19" Content="label4" Padding="0" />
             <Label Canvas.Top="203" Canvas.Left="114" Name="label5" Height="13" Width="35" TabIndex="20" Content="label5" Padding="0" />
             <Label Canvas.Top="230" Canvas.Left="13" Name="label6" Height="13" Width="35" TabIndex="21" Content="label6" Padding="0" />
+            <CheckBox Canvas.Top="150" Canvas.Left="107" Name="checkBox1" Height="17" Width="80" TabIndex="22" Content="checkBox1" />
+            <CheckBox Canvas.Top="199" Canvas.Left="176" Name="checkBox2" Height="17" Width="80" TabIndex="23" Content="checkBox2" />
+            <CheckBox Canvas.Top="303" Canvas.Left="319" Name="checkBox3" Height="17" Width="80" TabIndex="24" Content="checkBox3" />
+            <CheckBox Canvas.Top="122" Canvas.Left="318" Name="checkBox4" Height="17" Width="80" TabIndex="25" Content="checkBox4" />
+            <CheckBox Canvas.Top="72" Canvas.Left="454" Name="checkBox5" Height="17" Width="80" TabIndex="26" Content="checkBox5" />
+            <CheckBox Canvas.Top="227" Canvas.Left="454" Name="checkBox6" Height="17" Width="80" TabIndex="27" Content="checkBox6" />
+            <TextBox Canvas.Top="341" Canvas.Left="181" Name="textBox6" Height="20" Width="100" TabIndex="28" />
+            <Button Canvas.Top="154" Canvas.Left="529" Name="button9" Height="23" Width="75" TabIndex="29" Content="button9" />
+            <ComboBox Canvas.Top="341" Canvas.Left="485" Name="comboBox1" Height="21" Width="121" TabIndex="30" />
+            <ComboBox Canvas.Top="389" Canvas.Left="55" Name="comboBox2" Height="21" Width="121" TabIndex="31" />
+            <ComboBox Canvas.Top="388" Canvas.Left="404" Name="comboBox3" Height="21" Width="121" TabIndex="32" />
         </Canvas>
     </Grid>
 </Window>
