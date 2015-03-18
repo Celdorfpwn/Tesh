@@ -27,17 +27,6 @@ namespace XamlControls
                 var padding = document.CreateAttribute("Padding");
                 padding.Value = "0";
                 XmlNode.Attributes.Append(padding);
-                //List<XmlAttribute> removeAttributes = new List<XmlAttribute>();
-
-                //foreach(XmlAttribute attribute in XmlNode.Attributes)
-                //{
-                //    if(attribute.Name.Equals("Width") || attribute.Name.Equals("Height"))
-                //    {
-                //        removeAttributes.Add(attribute);
-                //    }
-                //}
-
-                //removeAttributes.ForEach(attribute => XmlNode.Attributes.Remove(attribute));
             }
         }
     }

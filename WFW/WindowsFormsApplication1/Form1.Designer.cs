@@ -58,6 +58,13 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // button3
@@ -323,11 +330,83 @@
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
             this.comboBox3.TabIndex = 32;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(107, 294);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 33;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(370, 264);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 34;
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(485, 195);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker3.TabIndex = 35;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(52, 344);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.TabIndex = 36;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(221, 392);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(85, 17);
+            this.radioButton2.TabIndex = 37;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(351, 74);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(85, 17);
+            this.radioButton3.TabIndex = 38;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "radioButton3";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(518, 31);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(85, 17);
+            this.radioButton4.TabIndex = 39;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(703, 441);
+            this.Controls.Add(this.radioButton4);
+            this.Controls.Add(this.radioButton3);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.dateTimePicker3);
+            this.Controls.Add(this.dateTimePicker2);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
@@ -397,6 +476,13 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker3;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton4;
     }
 }
 

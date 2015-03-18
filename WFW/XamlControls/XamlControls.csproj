@@ -45,7 +45,9 @@
     <Compile Include="XamlComboBox.cs" />
     <Compile Include="XamlControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XamlDatePicker.cs" />
     <Compile Include="XamlLabel.cs" />
+    <Compile Include="XamlRadioButton.cs" />
     <Compile Include="XamlTextBox.cs" />
   </ItemGroup>
   <ItemGroup>

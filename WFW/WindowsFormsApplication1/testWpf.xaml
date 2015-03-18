@@ -31,6 +31,13 @@
       <ComboBox Canvas.Top="341" Canvas.Left="485" Name="comboBox1" Height="21" Width="121" TabIndex="30" />
       <ComboBox Canvas.Top="389" Canvas.Left="55" Name="comboBox2" Height="21" Width="121" TabIndex="31" />
       <ComboBox Canvas.Top="388" Canvas.Left="404" Name="comboBox3" Height="21" Width="121" TabIndex="32" />
+      <DatePicker Canvas.Top="294" Canvas.Left="107" Name="dateTimePicker1" Height="20" Width="200" TabIndex="33" Padding="0" />
+      <DatePicker Canvas.Top="264" Canvas.Left="370" Name="dateTimePicker2" Height="20" Width="200" TabIndex="34" Padding="0" />
+      <DatePicker Canvas.Top="195" Canvas.Left="485" Name="dateTimePicker3" Height="20" Width="200" TabIndex="35" Padding="0" />
+      <RadioButton Canvas.Top="344" Canvas.Left="52" Name="radioButton1" Height="17" Width="85" TabIndex="36" Content="radioButton1" />
+      <RadioButton Canvas.Top="392" Canvas.Left="221" Name="radioButton2" Height="17" Width="85" TabIndex="37" Content="radioButton2" />
+      <RadioButton Canvas.Top="74" Canvas.Left="351" Name="radioButton3" Height="17" Width="85" TabIndex="38" Content="radioButton3" />
+      <RadioButton Canvas.Top="31" Canvas.Left="518" Name="radioButton4" Height="17" Width="85" TabIndex="39" Content="radioButton4" />
     </Canvas>
   </Grid>
 </Window>
