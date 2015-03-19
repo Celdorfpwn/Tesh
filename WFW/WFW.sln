@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFW", "WFW\WFW.csproj", "{AC360E3E-14E1-45F4-A986-4BD857DFD1F0}"
 EndProject
@@ -22,6 +22,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlControls", "XamlControls\XamlControls.csproj", "{16820977-61CD-434A-B9ED-9A2BD1A56B96}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlControlsFactory", "XamlControlsFactory\XamlControlsFactory.csproj", "{D051BE54-452D-4BBE-B6B4-19075567D576}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AttributesLayer", "AttributesLayer", "{CDE707AF-C294-4BF6-84FD-4869ED378DF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ControlsLayer", "ControlsLayer", "{5E051B3E-0BE5-4B64-ADBF-7C87D6C36398}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContainersLayer", "ContainersLayer", "{98943801-5997-49A4-8AC8-9F3B171F1406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamlContainers", "XamlContainers\XamlContainers.csproj", "{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -133,8 +141,25 @@ Global
 		{D051BE54-452D-4BBE-B6B4-19075567D576}.Release|Mixed Platforms.Build.0 = Release|x86
 		{D051BE54-452D-4BBE-B6B4-19075567D576}.Release|x86.ActiveCfg = Release|x86
 		{D051BE54-452D-4BBE-B6B4-19075567D576}.Release|x86.Build.0 = Release|x86
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF624574-768B-48AF-9A2A-301F0C18F637} = {CDE707AF-C294-4BF6-84FD-4869ED378DF3}
+		{9D9886E5-E914-4621-9480-954BDD57166E} = {CDE707AF-C294-4BF6-84FD-4869ED378DF3}
+		{16820977-61CD-434A-B9ED-9A2BD1A56B96} = {5E051B3E-0BE5-4B64-ADBF-7C87D6C36398}
+		{D051BE54-452D-4BBE-B6B4-19075567D576} = {5E051B3E-0BE5-4B64-ADBF-7C87D6C36398}
+		{0A547C2F-941A-4F6C-98E1-1E38E7FD020C} = {98943801-5997-49A4-8AC8-9F3B171F1406}
 	EndGlobalSection
 EndGlobal
