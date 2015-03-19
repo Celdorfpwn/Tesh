@@ -67,9 +67,10 @@ namespace WpfParser
 
             var controlsLines = File.ReadAllLines(WinForm).Where(line => line.Contains("this."));
 
-            var controls = XamlControlsFactory.XamlControlsFactory.GetControls(controlsLines,this,CodeSyntax.Fields).ToList(); 
+            var controls = XamlContainerFactory.XamlContainerFactory.GetControls(controlsLines, this, CodeSyntax.Fields).ToList();
+            //XamlControlsFactory.XamlControlsFactory.GetControls(controlsLines,this,CodeSyntax.Fields).ToList(); 
 
-            foreach(XmlNode control in controls)
+            foreach (XmlNode control in controls)
             {
                 canvas.AppendChild(control);
             }
