@@ -11,7 +11,7 @@ namespace XamlContainerFactory
 {
     public static class XamlContainerFactory
     {
-        public static IEnumerable<XmlNode> GetControls(IEnumerable<string> lines, XmlDocument document
+        public static IEnumerable<XmlNode> GetContainers(List<string> lines, XmlDocument document
             , IEnumerable<FieldDeclarationSyntax> controlsSyntax)
         {
             var controlAssemblyTypes = ContainerTypes.AssemblyTypes.ToList();

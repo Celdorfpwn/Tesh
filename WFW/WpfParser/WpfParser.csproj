@@ -84,10 +84,6 @@
       <Project>{2470fa92-f805-415f-ade1-66063b81fa6f}</Project>
       <Name>XamlContainerFactory</Name>
     </ProjectReference>
-    <ProjectReference Include="..\XamlContainers\XamlContainers.csproj">
-      <Project>{3b73942a-94b9-4b45-afec-142a86d95b67}</Project>
-      <Name>XamlContainers</Name>
-    </ProjectReference>
     <ProjectReference Include="..\XamlControlsFactory\XamlControlsFactory.csproj">
       <Project>{d051be54-452d-4bbe-b6b4-19075567d576}</Project>
       <Name>XamlControlsFactory</Name>

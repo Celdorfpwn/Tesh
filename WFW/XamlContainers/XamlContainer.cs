@@ -23,14 +23,12 @@ namespace XamlContainers
             if (Validate(containerType))
             {
                 XmlNode = document.CreateElement(XamlType, document.DocumentElement.NamespaceURI);
+                var canvasNode = document.CreateElement("Canvas", document.DocumentElement.NamespaceURI);
+
+                XmlNode.AppendChild(canvasNode);
                 Processed = true;
 
-                var attributeLines = ClearLines(containerName, lines);
-
-                AttributesFactory.AttributesFactory
-                    .GetAttributes(attributeLines, document)
-                    .ToList()
-                    .ForEach(attribute => XmlNode.Attributes.Append(attribute));
+                AppendAttributes(lines, containerName,document);
 
                 var containerControls = GetContainerControls(lines, containerName);
 
@@ -39,10 +37,25 @@ namespace XamlContainers
                 XamlControlsFactory.XamlControlsFactory
                     .GetControls(lines, document, controlsFields)
                     .ToList()
-                    .ForEach(control => XmlNode.AppendChild(control));
+                    .ForEach(control => canvasNode.AppendChild(control));
 
             }
             
+        }
+
+        private void AppendAttributes(IEnumerable<string> lines, string containerName,XmlDocument document)
+        {
+            var attributeLines = ClearLines(containerName, lines);
+
+            AttributesFactory.AttributesFactory
+                .GetAttributes(attributeLines, document)
+                .ToList()
+                .ForEach(attribute => XmlNode.Attributes.Append(attribute));
+
+            XmlNode.Attributes.RemoveNamedItem("TabIndex");
+
+            
+
         }
 
         private IEnumerable<string> ClearLines(string containerName, IEnumerable<string> controlLines)
@@ -78,8 +91,6 @@ namespace XamlContainers
 
             return controlNames;
         }
-
-
 
         private void SetControls(IEnumerable<string> lines, XmlDocument document, IEnumerable<FieldDeclarationSyntax> controlsSyntax)
         {

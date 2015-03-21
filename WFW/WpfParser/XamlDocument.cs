@@ -65,10 +65,9 @@ namespace WpfParser
 
             node.AppendChild(grid);
 
-            var controlsLines = File.ReadAllLines(WinForm).Where(line => line.Contains("this."));
+            var controlsLines = File.ReadAllLines(WinForm).Where(line => line.Contains("this.")).ToList();
 
-            var controls = XamlContainerFactory.XamlContainerFactory.GetControls(controlsLines, this, CodeSyntax.Fields).ToList();
-            //XamlControlsFactory.XamlControlsFactory.GetControls(controlsLines,this,CodeSyntax.Fields).ToList(); 
+            var controls = XamlContainerFactory.XamlContainerFactory.GetContainers(controlsLines, this, CodeSyntax.Fields).ToList();
 
             foreach (XmlNode control in controls)
             {
