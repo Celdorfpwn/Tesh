@@ -57,6 +57,8 @@
     <Compile Include="XamlCanvasTopTest.cs" />
     <Compile Include="XamlClickTest.cs" />
     <Compile Include="XamlContentTest.cs" />
+    <Compile Include="XamlGridColumnTest.cs" />
+    <Compile Include="XamlGridRowTest.cs" />
     <Compile Include="XamlHeightTest.cs" />
     <Compile Include="XamlNameTest.cs" />
     <Compile Include="XamlTabIndexTest.cs" />

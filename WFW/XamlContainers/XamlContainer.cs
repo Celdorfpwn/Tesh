@@ -53,9 +53,6 @@ namespace XamlContainers
                 .ForEach(attribute => XmlNode.Attributes.Append(attribute));
 
             XmlNode.Attributes.RemoveNamedItem("TabIndex");
-
-            
-
         }
 
         private IEnumerable<string> ClearLines(string containerName, IEnumerable<string> controlLines)
@@ -63,7 +60,7 @@ namespace XamlContainers
             var lines = new List<string>();
             var remove = containerName + ".";
             var controlIdentifier = "this." + containerName;
-            controlLines.Where(line => line.Contains(controlIdentifier)).ToList()
+            controlLines.Where(line => line.Contains(controlIdentifier) && line.Contains("=")).ToList()
                 .ForEach(line => lines.Add(line.Replace(remove, string.Empty)));
 
             return lines;

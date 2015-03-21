@@ -13,7 +13,7 @@ namespace AttributesUnitTests
         public void CanGetTypesToCount()
         {
 
-            var expected = 8;
+            var expected = 10;
 
             var actual = AttributesTypes.AssemblyTypes.Count();
 
@@ -27,7 +27,8 @@ namespace AttributesUnitTests
             {
                 typeof(XamlCanvasLeft),typeof(XamlCanvasTop),typeof(XamlClick),
                 typeof(XamlContent),typeof(XamlHeight),typeof(XamlName),
-                typeof(XamlTabIndex),typeof(XamlWidth)
+                typeof(XamlTabIndex),typeof(XamlWidth),typeof(XamlGridColumn),
+                typeof(XamlGridRow)
             };
 
             var actual = AttributesTypes.AssemblyTypes;
