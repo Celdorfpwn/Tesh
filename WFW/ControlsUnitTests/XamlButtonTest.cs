@@ -12,7 +12,6 @@ namespace ControlsUnitTests
         [TestMethod]
         public void XamlButtonProcessedIsTrue()
         {
-
             var controlName = "button5";
             var controlType = "System.Windows.Forms.Button ";
 
@@ -21,7 +20,6 @@ namespace ControlsUnitTests
             Assert.IsTrue(xamlButton.Processed);
 
             Assert.IsNotNull(xamlButton.XmlNode);
-
         }
 
         [TestMethod]
@@ -35,6 +33,21 @@ namespace ControlsUnitTests
             Assert.IsFalse(xamlButton.Processed);
 
             Assert.IsNull(xamlButton.XmlNode);
+        }
+
+        [TestMethod]
+        public void XamlButtonHasAttributes()
+        {
+            var controlName = "button5";
+            var controlType = "System.Windows.Forms.Button ";
+
+            var xamlButton = new XamlButton(ButtonLines, MockedXmlDocument, controlType, controlName);
+
+            var expected = 8;
+
+            var actual = xamlButton.XmlNode.Attributes.Count;
+
+            Assert.AreEqual(expected, actual);
         }
 
         private XmlDocument MockedXmlDocument

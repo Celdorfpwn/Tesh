@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="388856bd-9d85-4d38-a726-381a2abcd907" name="Apostol@APOSTOL-PC 2015-03-21 19:41:32" runUser="Apostol-PC\Apostol" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-03-21T19:41:32.5282278+02:00" queuing="2015-03-21T19:41:32.5312279+02:00" start="2015-03-21T19:41:32.5402285+02:00" finish="2015-03-21T19:41:32.7012377+02:00" />
+  <TestSettings name="default" id="28094747-061b-44b6-8f22-fe4b6b15c839">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="Apostol_APOSTOL-PC 2015-03-21 19_41_32" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="383c4085-92df-4ab1-8bd7-15fb10586ca5" testId="a7c44fff-2206-175f-eef9-caddabde3186" testName="CanGetTypesToCount" computerName="APOSTOL-PC" duration="00:00:00.0962604" startTime="2015-03-21T19:41:32.0922028+02:00" endTime="2015-03-21T19:41:32.2782135+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="383c4085-92df-4ab1-8bd7-15fb10586ca5" />
+    <UnitTestResult executionId="4f79b72c-4f2e-42d3-a3c1-6ded16c19a3a" testId="ce1afab9-e07a-81a2-ae8b-81d2950a4a4c" testName="CanGetAttributesTypesInTheAssembly" computerName="APOSTOL-PC" duration="00:00:00.0031504" startTime="2015-03-21T19:41:32.2952144+02:00" endTime="2015-03-21T19:41:32.2992147+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f79b72c-4f2e-42d3-a3c1-6ded16c19a3a" />
+    <UnitTestResult executionId="b1a843e1-e061-432c-a28c-61c5f20dd105" testId="78a89e8b-cc61-66ff-6f0a-7b3be71823c9" testName="XamlButtonProcessedIsTrue" computerName="APOSTOL-PC" duration="00:00:00.0937306" startTime="2015-03-21T19:41:32.2992147+02:00" endTime="2015-03-21T19:41:32.3942201+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1a843e1-e061-432c-a28c-61c5f20dd105" />
+    <UnitTestResult executionId="048e4680-591f-4932-835c-1e359ca23ac0" testId="0982e367-77e4-d92f-41ad-028ac71f96a9" testName="XamlButtonProcessedIsFalse" computerName="APOSTOL-PC" duration="00:00:00.0009213" startTime="2015-03-21T19:41:32.3942201+02:00" endTime="2015-03-21T19:41:32.3952202+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="048e4680-591f-4932-835c-1e359ca23ac0" />
+    <UnitTestResult executionId="bd1c3b0c-5f7f-4103-85dd-50470e962d08" testId="640a1b3b-bbed-5fa3-519d-fccb009253c3" testName="XamlCheckBoxProcessedIsTrue" computerName="APOSTOL-PC" duration="00:00:00.0033254" startTime="2015-03-21T19:41:32.3952202+02:00" endTime="2015-03-21T19:41:32.3992204+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd1c3b0c-5f7f-4103-85dd-50470e962d08" />
+    <UnitTestResult executionId="c6acae03-e381-4293-b751-41be60bf50a4" testId="b3e3abff-e39a-d349-bb6a-ea5cc642a943" testName="XamlCheckBoxProcessedIsFalse" computerName="APOSTOL-PC" duration="00:00:00.0005874" startTime="2015-03-21T19:41:32.3992204+02:00" endTime="2015-03-21T19:41:32.4002205+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6acae03-e381-4293-b751-41be60bf50a4" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CanGetTypesToCount" storage="d:\realpojects\projects\wfw\controlsunittests\bin\debug\controlsunittests.dll" id="a7c44fff-2206-175f-eef9-caddabde3186">
+      <Execution id="383c4085-92df-4ab1-8bd7-15fb10586ca5" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ControlsUnitTests\bin\Debug\ControlsUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ControlsUnitTests.ControlsTypesTest" name="CanGetTypesToCount" />
+    </UnitTest>
+    <UnitTest name="CanGetAttributesTypesInTheAssembly" storage="d:\realpojects\projects\wfw\controlsunittests\bin\debug\controlsunittests.dll" id="ce1afab9-e07a-81a2-ae8b-81d2950a4a4c">
+      <Execution id="4f79b72c-4f2e-42d3-a3c1-6ded16c19a3a" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ControlsUnitTests\bin\Debug\ControlsUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ControlsUnitTests.ControlsTypesTest" name="CanGetAttributesTypesInTheAssembly" />
+    </UnitTest>
+    <UnitTest name="XamlButtonProcessedIsTrue" storage="d:\realpojects\projects\wfw\controlsunittests\bin\debug\controlsunittests.dll" id="78a89e8b-cc61-66ff-6f0a-7b3be71823c9">
+      <Execution id="b1a843e1-e061-432c-a28c-61c5f20dd105" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ControlsUnitTests\bin\Debug\ControlsUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ControlsUnitTests.XamlButtonTest" name="XamlButtonProcessedIsTrue" />
+    </UnitTest>
+    <UnitTest name="XamlButtonProcessedIsFalse" storage="d:\realpojects\projects\wfw\controlsunittests\bin\debug\controlsunittests.dll" id="0982e367-77e4-d92f-41ad-028ac71f96a9">
+      <Execution id="048e4680-591f-4932-835c-1e359ca23ac0" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ControlsUnitTests\bin\Debug\ControlsUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ControlsUnitTests.XamlButtonTest" name="XamlButtonProcessedIsFalse" />
+    </UnitTest>
+    <UnitTest name="XamlCheckBoxProcessedIsTrue" storage="d:\realpojects\projects\wfw\controlsunittests\bin\debug\controlsunittests.dll" id="640a1b3b-bbed-5fa3-519d-fccb009253c3">
+      <Execution id="bd1c3b0c-5f7f-4103-85dd-50470e962d08" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ControlsUnitTests\bin\Debug\ControlsUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ControlsUnitTests.XamlCheckBoxTest" name="XamlCheckBoxProcessedIsTrue" />
+    </UnitTest>
+    <UnitTest name="XamlCheckBoxProcessedIsFalse" storage="d:\realpojects\projects\wfw\controlsunittests\bin\debug\controlsunittests.dll" id="b3e3abff-e39a-d349-bb6a-ea5cc642a943">
+      <Execution id="c6acae03-e381-4293-b751-41be60bf50a4" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ControlsUnitTests\bin\Debug\ControlsUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ControlsUnitTests.XamlCheckBoxTest" name="XamlCheckBoxProcessedIsFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a7c44fff-2206-175f-eef9-caddabde3186" executionId="383c4085-92df-4ab1-8bd7-15fb10586ca5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce1afab9-e07a-81a2-ae8b-81d2950a4a4c" executionId="4f79b72c-4f2e-42d3-a3c1-6ded16c19a3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78a89e8b-cc61-66ff-6f0a-7b3be71823c9" executionId="b1a843e1-e061-432c-a28c-61c5f20dd105" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0982e367-77e4-d92f-41ad-028ac71f96a9" executionId="048e4680-591f-4932-835c-1e359ca23ac0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="640a1b3b-bbed-5fa3-519d-fccb009253c3" executionId="bd1c3b0c-5f7f-4103-85dd-50470e962d08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b3e3abff-e39a-d349-bb6a-ea5cc642a943" executionId="c6acae03-e381-4293-b751-41be60bf50a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
