@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7fa9a28d-27e7-49dd-9ba4-c9a7262dd3b5" name="Apostol@APOSTOL-PC 2015-03-21 13:31:10" runUser="Apostol-PC\Apostol" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-03-21T13:31:10.4715326+02:00" queuing="2015-03-21T13:31:10.4735327+02:00" start="2015-03-21T13:31:10.4825332+02:00" finish="2015-03-21T13:31:10.6135407+02:00" />
+  <TestSettings name="default" id="2128bce5-9162-43f5-95aa-4471c7206372">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="Apostol_APOSTOL-PC 2015-03-21 13_31_10" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="bc27e5e5-895f-4255-bbdb-742f01ba19a6" testId="a380fe15-f3b1-d7c1-03b0-b817ad4d7c33" testName="CanGetTypesToCount" computerName="APOSTOL-PC" duration="00:00:00.0504038" startTime="2015-03-21T13:31:10.2325189+02:00" endTime="2015-03-21T13:31:10.3565260+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bc27e5e5-895f-4255-bbdb-742f01ba19a6" />
+    <UnitTestResult executionId="c658b7f9-4d08-4c94-b164-3ba9d9b104a3" testId="ef4e5bdd-c556-00df-0d30-39da912136e7" testName="CanGetAttributesTypesInTheAssembly" computerName="APOSTOL-PC" duration="00:00:00.0028895" startTime="2015-03-21T13:31:10.3705268+02:00" endTime="2015-03-21T13:31:10.3735270+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c658b7f9-4d08-4c94-b164-3ba9d9b104a3" />
+    <UnitTestResult executionId="034e6649-805e-464c-94c9-2a0c62b4b506" testId="01c9610b-9035-208c-4d65-da8950827715" testName="XamlCanvasLeftProcessedIsTrue" computerName="APOSTOL-PC" duration="00:00:00.0055594" startTime="2015-03-21T13:31:10.3735270+02:00" endTime="2015-03-21T13:31:10.3805274+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="034e6649-805e-464c-94c9-2a0c62b4b506" />
+    <UnitTestResult executionId="3527c666-e387-46bd-8d93-9c7fea699713" testId="4fc65320-7d7e-1c1b-cd0b-2178beb3949b" testName="XamlCanvasLeftCanProcessedIsFalse" computerName="APOSTOL-PC" duration="00:00:00.0007920" startTime="2015-03-21T13:31:10.3805274+02:00" endTime="2015-03-21T13:31:10.3815274+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3527c666-e387-46bd-8d93-9c7fea699713" />
+    <UnitTestResult executionId="61a53d90-8127-45bd-b225-4d45bf004e4d" testId="c1634582-97eb-4616-e1b7-dbad9fbbac46" testName="XamlCanvasLeftXmlAttriuteHasTheRightValue" computerName="APOSTOL-PC" duration="00:00:00.0010242" startTime="2015-03-21T13:31:10.3815274+02:00" endTime="2015-03-21T13:31:10.3825275+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61a53d90-8127-45bd-b225-4d45bf004e4d" />
+    <UnitTestResult executionId="a4e044dd-9441-4596-bee7-7bfe49f19dd9" testId="40694272-ab31-5511-2f60-9ebe71addfbf" testName="XamlCanvasLeftProcessedIsTrue" computerName="APOSTOL-PC" duration="00:00:00.0014273" startTime="2015-03-21T13:31:10.3825275+02:00" endTime="2015-03-21T13:31:10.3845276+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4e044dd-9441-4596-bee7-7bfe49f19dd9" />
+    <UnitTestResult executionId="4239d085-50a8-4439-b476-a1cd4c37fd08" testId="2ec5cdc7-8335-f3db-4c0c-06c5ce81d896" testName="XamlCanvasLeftCanProcessedIsFalse" computerName="APOSTOL-PC" duration="00:00:00.0004371" startTime="2015-03-21T13:31:10.3845276+02:00" endTime="2015-03-21T13:31:10.3855277+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4239d085-50a8-4439-b476-a1cd4c37fd08" />
+    <UnitTestResult executionId="41e6e07e-d0dd-43f2-80bc-01e44da153e7" testId="486a49ea-303b-9991-c01f-9da3179bf68f" testName="XamlCanvasLeftXmlAttriuteHasTheRightValue" computerName="APOSTOL-PC" duration="00:00:00.0004760" startTime="2015-03-21T13:31:10.3855277+02:00" endTime="2015-03-21T13:31:10.3865277+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41e6e07e-d0dd-43f2-80bc-01e44da153e7" />
+    <UnitTestResult executionId="6a4f38fa-1be8-40b2-9dfb-02537b3de97e" testId="f9098f70-4ef7-b5d2-65ea-069d05395aa8" testName="XamlCanvasLeftProcessedIsTrue" computerName="APOSTOL-PC" duration="00:00:00.0012600" startTime="2015-03-21T13:31:10.3865277+02:00" endTime="2015-03-21T13:31:10.3885279+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a4f38fa-1be8-40b2-9dfb-02537b3de97e" />
+    <UnitTestResult executionId="6e8dccca-c248-4591-b598-cdce502eb582" testId="290283f6-68e6-60a8-9436-16d9a76e5b81" testName="XamlCanvasLeftCanProcessedIsFalse" computerName="APOSTOL-PC" duration="00:00:00.0007758" startTime="2015-03-21T13:31:10.3965283+02:00" endTime="2015-03-21T13:31:10.3975284+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e8dccca-c248-4591-b598-cdce502eb582" />
+    <UnitTestResult executionId="7f9aa2b3-e7cd-4965-89e7-56ca2787b965" testId="6a589587-ab06-e9cc-1eca-3e77ec608dfe" testName="XamlCanvasLeftXmlAttriuteHasTheRightValue" computerName="APOSTOL-PC" duration="00:00:00.0006502" startTime="2015-03-21T13:31:10.3985284+02:00" endTime="2015-03-21T13:31:10.3985284+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f9aa2b3-e7cd-4965-89e7-56ca2787b965" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CanGetTypesToCount" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="a380fe15-f3b1-d7c1-03b0-b817ad4d7c33">
+      <Execution id="bc27e5e5-895f-4255-bbdb-742f01ba19a6" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.AttributesTypesTest" name="CanGetTypesToCount" />
+    </UnitTest>
+    <UnitTest name="CanGetAttributesTypesInTheAssembly" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="ef4e5bdd-c556-00df-0d30-39da912136e7">
+      <Execution id="c658b7f9-4d08-4c94-b164-3ba9d9b104a3" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.AttributesTypesTest" name="CanGetAttributesTypesInTheAssembly" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftProcessedIsTrue" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="01c9610b-9035-208c-4d65-da8950827715">
+      <Execution id="034e6649-805e-464c-94c9-2a0c62b4b506" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlCanvasLeftTest" name="XamlCanvasLeftProcessedIsTrue" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftCanProcessedIsFalse" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="4fc65320-7d7e-1c1b-cd0b-2178beb3949b">
+      <Execution id="3527c666-e387-46bd-8d93-9c7fea699713" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlCanvasLeftTest" name="XamlCanvasLeftCanProcessedIsFalse" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftXmlAttriuteHasTheRightValue" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="c1634582-97eb-4616-e1b7-dbad9fbbac46">
+      <Execution id="61a53d90-8127-45bd-b225-4d45bf004e4d" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlCanvasLeftTest" name="XamlCanvasLeftXmlAttriuteHasTheRightValue" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftProcessedIsTrue" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="40694272-ab31-5511-2f60-9ebe71addfbf">
+      <Execution id="a4e044dd-9441-4596-bee7-7bfe49f19dd9" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlCanvasTopTest" name="XamlCanvasLeftProcessedIsTrue" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftCanProcessedIsFalse" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="2ec5cdc7-8335-f3db-4c0c-06c5ce81d896">
+      <Execution id="4239d085-50a8-4439-b476-a1cd4c37fd08" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlCanvasTopTest" name="XamlCanvasLeftCanProcessedIsFalse" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftXmlAttriuteHasTheRightValue" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="486a49ea-303b-9991-c01f-9da3179bf68f">
+      <Execution id="41e6e07e-d0dd-43f2-80bc-01e44da153e7" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlCanvasTopTest" name="XamlCanvasLeftXmlAttriuteHasTheRightValue" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftProcessedIsTrue" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="f9098f70-4ef7-b5d2-65ea-069d05395aa8">
+      <Execution id="6a4f38fa-1be8-40b2-9dfb-02537b3de97e" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlClickTest" name="XamlCanvasLeftProcessedIsTrue" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftCanProcessedIsFalse" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="290283f6-68e6-60a8-9436-16d9a76e5b81">
+      <Execution id="6e8dccca-c248-4591-b598-cdce502eb582" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlClickTest" name="XamlCanvasLeftCanProcessedIsFalse" />
+    </UnitTest>
+    <UnitTest name="XamlCanvasLeftXmlAttriuteHasTheRightValue" storage="d:\realpojects\projects\wfw\attributesunittests\bin\debug\attributesunittests.dll" id="6a589587-ab06-e9cc-1eca-3e77ec608dfe">
+      <Execution id="7f9aa2b3-e7cd-4965-89e7-56ca2787b965" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\AttributesUnitTests\bin\Debug\AttributesUnitTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="AttributesUnitTests.XamlClickTest" name="XamlCanvasLeftXmlAttriuteHasTheRightValue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a380fe15-f3b1-d7c1-03b0-b817ad4d7c33" executionId="bc27e5e5-895f-4255-bbdb-742f01ba19a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef4e5bdd-c556-00df-0d30-39da912136e7" executionId="c658b7f9-4d08-4c94-b164-3ba9d9b104a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01c9610b-9035-208c-4d65-da8950827715" executionId="034e6649-805e-464c-94c9-2a0c62b4b506" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4fc65320-7d7e-1c1b-cd0b-2178beb3949b" executionId="3527c666-e387-46bd-8d93-9c7fea699713" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1634582-97eb-4616-e1b7-dbad9fbbac46" executionId="61a53d90-8127-45bd-b225-4d45bf004e4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40694272-ab31-5511-2f60-9ebe71addfbf" executionId="a4e044dd-9441-4596-bee7-7bfe49f19dd9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ec5cdc7-8335-f3db-4c0c-06c5ce81d896" executionId="4239d085-50a8-4439-b476-a1cd4c37fd08" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="486a49ea-303b-9991-c01f-9da3179bf68f" executionId="41e6e07e-d0dd-43f2-80bc-01e44da153e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f9098f70-4ef7-b5d2-65ea-069d05395aa8" executionId="6a4f38fa-1be8-40b2-9dfb-02537b3de97e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="290283f6-68e6-60a8-9436-16d9a76e5b81" executionId="6e8dccca-c248-4591-b598-cdce502eb582" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a589587-ab06-e9cc-1eca-3e77ec608dfe" executionId="7f9aa2b3-e7cd-4965-89e7-56ca2787b965" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
