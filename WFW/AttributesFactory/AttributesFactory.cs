@@ -26,6 +26,5 @@ namespace AttributesFactory
             return attributes.Where(attribute => attribute.Processed)
                 .Select(attribute => attribute.XmlAttribute);
         }
-
     }
 }

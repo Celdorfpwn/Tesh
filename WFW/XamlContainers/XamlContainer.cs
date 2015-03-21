@@ -23,10 +23,12 @@ namespace XamlContainers
             if (Validate(containerType))
             {
                 XmlNode = document.CreateElement(XamlType, document.DocumentElement.NamespaceURI);
+
+                AppendSpecials(lines, containerName, document);
+
                 var canvasNode = document.CreateElement("Canvas", document.DocumentElement.NamespaceURI);
 
                 XmlNode.AppendChild(canvasNode);
-                Processed = true;
 
                 AppendAttributes(lines, containerName,document);
 
@@ -39,9 +41,13 @@ namespace XamlContainers
                     .ToList()
                     .ForEach(control => canvasNode.AppendChild(control));
 
+                Processed = true;
             }
             
         }
+
+
+        protected abstract void AppendSpecials(IEnumerable<string> lines, string containerName,XmlDocument document);
 
         private void AppendAttributes(IEnumerable<string> lines, string containerName,XmlDocument document)
         {
