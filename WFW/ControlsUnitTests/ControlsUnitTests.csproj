@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -53,14 +54,25 @@
   <ItemGroup>
     <Compile Include="ControlsTypesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Mocker.cs" />
     <Compile Include="XamlButtonTest.cs" />
     <Compile Include="XamlCheckBoxTest.cs" />
+    <Compile Include="XamlComboBoxTest.cs" />
+    <Compile Include="XamlDatePickerTest.cs" />
+    <Compile Include="XamlLabelTest.cs" />
+    <Compile Include="XamlRadioButtonTest.cs" />
+    <Compile Include="XamlTextBoxTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamlControls\XamlControls.csproj">
       <Project>{16820977-61cd-434a-b9ed-9a2bd1a56b96}</Project>
       <Name>XamlControls</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="controlLines.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

@@ -20,7 +20,7 @@ namespace ControlsUnitTests
         }
 
         [TestMethod]
-        public void CanGetAttributesTypesInTheAssembly()
+        public void CanGetControlTypesInTheAssembly()
         {
             var expected = new List<Type>
             {
