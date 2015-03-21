@@ -17,7 +17,7 @@ namespace XamlControlsFactory
         public static IEnumerable<XmlNode> GetControls(IEnumerable<string> lines, XmlDocument document
             , IEnumerable<FieldDeclarationSyntax> controlsSyntax)
         {
-            var controlAssemblyTypes = ControlTypes.AssemblyTypes.ToList();
+            var controlAssemblyTypes = ControlsTypes.AssemblyTypes.ToList();
 
             var controls = new List<XamlControl>();
 

@@ -57,7 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ControlTypes.cs" />
+    <Compile Include="ControlsTypes.cs" />
     <Compile Include="XamlButton.cs" />
     <Compile Include="XamlCheckBox.cs" />
     <Compile Include="XamlComboBox.cs" />

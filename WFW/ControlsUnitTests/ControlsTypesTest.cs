@@ -1,21 +1,20 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Attributes;
+using XamlControls;
 using System.Linq;
 using System.Collections.Generic;
-
-namespace AttributesUnitTests
+namespace ControlsUnitTests
 {
     [TestClass]
-    public class AttributesTypesTest
+    public class ControlsTypesTest
     {
         [TestMethod]
         public void CanGetTypesToCount()
         {
 
-            var expected = 8;
+            var expected = 7;
 
-            var actual = AttributesTypes.AssemblyTypes.Count();
+            var actual = ControlsTypes.AssemblyTypes.Count();
 
             Assert.AreEqual(expected, actual);
         }
@@ -25,16 +24,16 @@ namespace AttributesUnitTests
         {
             var expected = new List<Type>
             {
-                typeof(XamlCanvasLeft),typeof(XamlCanvasTop),typeof(XamlClick),
-                typeof(XamlContent),typeof(XamlHeight),typeof(XamlName),
-                typeof(XamlTabIndex),typeof(XamlWidth)
+                typeof(XamlButton),typeof(XamlCheckBox),typeof(XamlComboBox),
+                typeof(XamlDatePicker),typeof(XamlLabel),typeof(XamlRadioButton),
+                typeof(XamlTextBox)
             };
 
-            var actual = AttributesTypes.AssemblyTypes;
+            var actual = ControlsTypes.AssemblyTypes;
 
             Assert.AreEqual(expected.Count, actual.Count());
 
-            foreach(var type in actual)
+            foreach (var type in actual)
             {
                 Assert.IsTrue(expected.Contains(type));
             }

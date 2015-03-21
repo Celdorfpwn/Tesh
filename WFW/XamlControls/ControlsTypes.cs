@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace XamlControls
 {
-    public static class ControlTypes
+    public static class ControlsTypes
     {
         public static IEnumerable<Type> AssemblyTypes
         {
