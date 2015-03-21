@@ -16,19 +16,15 @@ namespace AttributesFactory
 
             var attributes = new List<XamlAttribute>();
 
-            foreach(var line in lines)
-            {
-                foreach (var type in attributesAssemblyTypes)
-                {
-                    var attribute = (XamlAttribute)Activator.CreateInstance(type, line, document);
-                    attributes.Add(attribute);
-                }
-            }
+            lines.ToList()
+                .ForEach(line =>
+                attributesAssemblyTypes
+                .ForEach(type =>
+                    attributes.Add((XamlAttribute)Activator.CreateInstance(type, line, document))
+                ));
 
-            var ret = attributes.Where(attribute => attribute.Processed)
-                .Select(attribute => attribute.XmlAttribute).ToList();
-
-            return ret;
+            return attributes.Where(attribute => attribute.Processed)
+                .Select(attribute => attribute.XmlAttribute);
         }
 
     }
