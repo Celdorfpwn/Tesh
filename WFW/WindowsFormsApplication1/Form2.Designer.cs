@@ -49,7 +49,7 @@ namespace WindowsFormsApplication1
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -92,6 +92,7 @@ namespace WindowsFormsApplication1
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CalendarTrailingForeColor = System.Drawing.Color.Gray;
             this.dateTimePicker1.Location = new System.Drawing.Point(3, 145);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
@@ -99,6 +100,7 @@ namespace WindowsFormsApplication1
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.LightCoral;
             this.textBox1.ForeColor = System.Drawing.Color.Maroon;
             this.textBox1.Location = new System.Drawing.Point(209, 3);
             this.textBox1.Name = "textBox1";
@@ -118,6 +120,7 @@ namespace WindowsFormsApplication1
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(315, 145);
             this.comboBox1.Name = "comboBox1";

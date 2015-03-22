@@ -30,22 +30,24 @@ namespace Attributes
         {
             var colorLine = ClearLine(line);
 
+            string color = String.Empty;
+
             if(colorLine.Contains("FromArgb"))
             {
-                return ColorFromArgb(colorLine);
+                color = ColorFromArgb(colorLine);
             }
-
+            else
             if (colorLine.Contains("SystemColors"))
             {
-                return ColorFromSystem(colorLine);
+                color = ColorFromSystem(colorLine);
             }
-
+            else
             if(colorLine.Contains("Color"))
             {
-                return ColorFromColors(colorLine);
+                color = ColorFromColors(colorLine);
             }
 
-            return string.Empty;
+            return color;
         }
 
         private string ColorFromColors(string colorLine)

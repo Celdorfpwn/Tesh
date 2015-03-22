@@ -17,19 +17,10 @@ namespace Attributes
         public XamlGridRow(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            if (line.Contains("Controls"))
+            if (line.Contains("Controls") && line.Contains("Add"))
             {
-                var firstSplit = line.Split('.');
-                if(firstSplit.Length == 5)
-                {
-                    var second = firstSplit[4].Split(',');
-
-                    if(second.Length == 3)
-                    {
-                        var value = second[2].Replace(");", String.Empty).Trim();
-                        Validate(value, xmlDocument);
-                    }
-                } 
+                var value = line.Split('.')[4].Split(',')[2].Replace(");", string.Empty).Trim();
+                Validate(value, xmlDocument);
             }
         }
     }

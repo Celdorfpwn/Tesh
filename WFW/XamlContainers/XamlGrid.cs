@@ -31,6 +31,10 @@ namespace XamlContainers
         public XamlGrid(IEnumerable<string> lines, XmlDocument document, IEnumerable<FieldDeclarationSyntax> designerFields, string containerType, string containerName)
             : base(lines, document, designerFields,containerType,containerName)
         {
+            if(Processed)
+            {
+                XmlNode.Attributes.RemoveNamedItem("Foreground");
+            }
         }
 
         private void AppendColumnsAndRowsDefinitions(IEnumerable<string> lines,string containerName,XmlDocument document)

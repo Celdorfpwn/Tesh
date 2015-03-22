@@ -53,10 +53,12 @@
   <ItemGroup>
     <Compile Include="AttributesTypesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XamlBackgroundTest.cs" />
     <Compile Include="XamlCanvasLeftTest.cs" />
     <Compile Include="XamlCanvasTopTest.cs" />
     <Compile Include="XamlClickTest.cs" />
     <Compile Include="XamlContentTest.cs" />
+    <Compile Include="XamlForegroundTest.cs" />
     <Compile Include="XamlGridColumnTest.cs" />
     <Compile Include="XamlGridRowTest.cs" />
     <Compile Include="XamlHeightTest.cs" />
