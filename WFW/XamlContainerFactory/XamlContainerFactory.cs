@@ -18,7 +18,20 @@ namespace XamlContainerFactory
 
             var controls = new List<XamlContainer>();
 
-            foreach (var controlSyntax in controlsSyntax)
+            var windowContainers = new List<FieldDeclarationSyntax>();
+
+            foreach(var control in controlsSyntax)
+            {
+                var identifier = "this.Controls.Add(this." + control.Declaration.Variables.First().ToFullString().Trim() + ");";
+
+                var windowLine = lines.FirstOrDefault(line => line.Contains(identifier));
+                if (windowLine!=null)
+                {
+                    windowContainers.Add(control);
+                }
+            }
+
+            foreach (var controlSyntax in windowContainers)
             {
                 foreach (var type in controlAssemblyTypes)
                 {

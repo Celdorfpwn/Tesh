@@ -36,6 +36,11 @@ namespace XamlContainers
 
                 var controlsFields = designerFields.Where(field => containerControls.Contains(field.Declaration.Variables.First().ToFullString()));
 
+                InternalContainerFactory.GetContainers(lines, document, controlsFields,designerFields)
+                    .ToList()
+                    .ForEach(container => canvasNode.AppendChild(container));
+                    
+
                 XamlControlsFactory.XamlControlsFactory
                     .GetControls(lines, document, controlsFields)
                     .ToList()

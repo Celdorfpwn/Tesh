@@ -73,8 +73,6 @@ namespace WpfParser
             {
                 canvas.AppendChild(control);
             }
-
-            
         }
 
         public void SaveXaml()
