@@ -50,6 +50,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,11 +59,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AttributesTypes.cs" />
+    <Compile Include="XamlBackground.cs" />
     <Compile Include="XamlCanvasTop.cs" />
     <Compile Include="XamlAttribute.cs" />
     <Compile Include="XamlClick.cs" />
+    <Compile Include="XamlColorAttribute.cs" />
     <Compile Include="XamlContent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XamlForeground.cs" />
     <Compile Include="XamlGridColumn.cs" />
     <Compile Include="XamlGridRow.cs" />
     <Compile Include="XamlHeight.cs" />

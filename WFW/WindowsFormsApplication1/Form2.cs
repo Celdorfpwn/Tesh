@@ -15,6 +15,15 @@ namespace WindowsFormsApplication1
         public Form2()
         {
             InitializeComponent();
+
+
+            var color = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+
+            var hex = string.Format("#{0:X2}{1:X2}{2:X2}{3:X2}",
+                     color.A,
+                     color.R,
+                     color.G,
+                     color.B);
         }
     }
 }

@@ -16,7 +16,7 @@ namespace Attributes
                 return Assembly
                     .GetExecutingAssembly()
                     .GetTypes()
-                    .Where(type => !type.IsAbstract);
+                    .Where(type => !type.IsAbstract && !type.Name.Contains("<>"));
             }
         }
     }

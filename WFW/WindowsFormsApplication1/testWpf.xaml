@@ -1,7 +1,7 @@
 <Window x:Class="WindowsFormsApplication1.Form2" Width="1017" Height="585" Title="Form2" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <Grid>
     <Canvas>
-      <Grid Canvas.Top="24" Canvas.Left="26" Name="tableLayoutPanel1" Height="284" Width="613">
+      <Grid Background="#FF1E90FF" Foreground="#FFFF0000" Canvas.Top="24" Canvas.Left="26" Name="tableLayoutPanel1" Height="284" Width="613">
         <Grid.ColumnDefinitions>
           <ColumnDefinition Width="Auto" />
           <ColumnDefinition Width="Auto" />
@@ -12,11 +12,11 @@
           <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Canvas>
-          <Button Grid.Column="0" Grid.Row="0" Canvas.Top="3" Canvas.Left="3" Name="button1" Height="23" Width="75" TabIndex="0" Content="button1" />
-          <CheckBox Grid.Column="1" Grid.Row="1" Canvas.Top="145" Canvas.Left="209" Name="checkBox1" Height="17" Width="80" TabIndex="2" Content="checkBox1" />
+          <Button Grid.Column="0" Grid.Row="0" Foreground="#FF00FF00" Canvas.Top="3" Canvas.Left="3" Name="button1" Height="23" Width="75" TabIndex="0" Content="button1" />
+          <CheckBox Grid.Column="1" Grid.Row="1" Foreground="#FFC04000" Canvas.Top="145" Canvas.Left="209" Name="checkBox1" Height="17" Width="80" TabIndex="2" Content="checkBox1" />
           <DatePicker Grid.Column="0" Grid.Row="1" Canvas.Top="145" Canvas.Left="3" Name="dateTimePicker1" Height="20" Width="200" TabIndex="3" Padding="0" />
-          <TextBox Grid.Column="1" Grid.Row="0" Canvas.Top="3" Canvas.Left="209" Name="textBox1" Height="20" Width="100" TabIndex="4" />
-          <Button Grid.Column="2" Grid.Row="0" Canvas.Top="3" Canvas.Left="315" Name="button2" Height="23" Width="75" TabIndex="5" Content="button2" />
+          <TextBox Grid.Column="1" Grid.Row="0" Foreground="#FF800000" Canvas.Top="3" Canvas.Left="209" Name="textBox1" Height="20" Width="100" TabIndex="4" />
+          <Button Grid.Column="2" Grid.Row="0" Background="#FFF0F0F0" Foreground="#FFA0A0A0" Canvas.Top="3" Canvas.Left="315" Name="button2" Height="23" Width="75" TabIndex="5" Content="button2" />
           <ComboBox Grid.Column="2" Grid.Row="1" Canvas.Top="145" Canvas.Left="315" Name="comboBox1" Height="21" Width="121" TabIndex="6" />
         </Canvas>
       </Grid>

@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication1
+namespace WindowsFormsApplication1
 {
     partial class Form2
     {
@@ -49,6 +49,7 @@
             // 
             // tableLayoutPanel1
             // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.DodgerBlue;
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -59,6 +60,7 @@
             this.tableLayoutPanel1.Controls.Add(this.textBox1, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.button2, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.comboBox1, 2, 1);
+            this.tableLayoutPanel1.ForeColor = System.Drawing.Color.Red;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(26, 24);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
@@ -69,6 +71,7 @@
             // 
             // button1
             // 
+            this.button1.ForeColor = System.Drawing.Color.Lime;
             this.button1.Location = new System.Drawing.Point(3, 3);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -79,6 +82,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.checkBox1.Location = new System.Drawing.Point(209, 145);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 17);
@@ -95,6 +99,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.ForeColor = System.Drawing.Color.Maroon;
             this.textBox1.Location = new System.Drawing.Point(209, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
@@ -102,12 +107,14 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.button2.Location = new System.Drawing.Point(315, 3);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
             this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // comboBox1
             // 
@@ -179,6 +186,7 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Name = "Form2";
             this.Text = "Form2";
             this.tableLayoutPanel1.ResumeLayout(false);
