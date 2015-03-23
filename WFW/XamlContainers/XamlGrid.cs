@@ -28,6 +28,11 @@ namespace XamlContainers
             }
         }
 
+        public override bool RequireCanvas
+        {
+            get { return true; }
+        }
+
         public XamlGrid(IEnumerable<string> lines, XmlDocument document, IEnumerable<FieldDeclarationSyntax> designerFields, string containerType, string containerName)
             : base(lines, document, designerFields,containerType,containerName)
         {

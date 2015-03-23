@@ -42,7 +42,7 @@ namespace XamlControls
             var lines = new List<string>();
             var remove = controlName + ".";
             var controlIdentifier = "this." + controlName;
-            controlLines.Where(line => line.Contains(controlIdentifier)).ToList()
+            controlLines.Where(line => line.Split('.').Contains(controlName)).ToList()
                 .ForEach(line => lines.Add(line.Replace(remove,string.Empty)));
 
             return lines;

@@ -14,6 +14,8 @@ namespace XamlContainers
 
         public XmlNode XmlNode { get; private set; }
 
+        public abstract bool RequireCanvas { get; }
+
         public abstract string ContainerType { get; }
 
         public abstract string XamlType { get; }
@@ -26,9 +28,20 @@ namespace XamlContainers
 
                 AppendSpecials(lines, containerName, document);
 
-                var canvasNode = document.CreateElement("Canvas", document.DocumentElement.NamespaceURI);
+                XmlNode appendNode = null;
 
-                XmlNode.AppendChild(canvasNode);
+                if (RequireCanvas)
+                {
+                    var canvasNode = document.CreateElement("Canvas", document.DocumentElement.NamespaceURI);
+
+                    XmlNode.AppendChild(canvasNode);
+
+                    appendNode = canvasNode;
+                }
+                else
+                {
+                    appendNode = XmlNode;
+                }
 
                 AppendAttributes(lines, containerName,document);
 
@@ -38,13 +51,13 @@ namespace XamlContainers
 
                 InternalContainerFactory.GetContainers(lines, document, controlsFields,designerFields)
                     .ToList()
-                    .ForEach(container => canvasNode.AppendChild(container));
+                    .ForEach(container => appendNode.AppendChild(container));
                     
 
                 XamlControlsFactory.XamlControlsFactory
                     .GetControls(lines, document, controlsFields)
                     .ToList()
-                    .ForEach(control => canvasNode.AppendChild(control));
+                    .ForEach(control => appendNode.AppendChild(control));
 
                 Processed = true;
             }
@@ -94,7 +107,8 @@ namespace XamlContainers
             lines.Where(line => line.Contains(searchIndicator))
                 .ToList()
                 .ForEach(line => 
-                controlNames.Add(line.Trim().Replace(searchIndicator,String.Empty).Split(',')[0]));
+                controlNames.Add(line.Trim().Replace(searchIndicator,String.Empty)
+                .Replace(");",String.Empty).Split(',')[0]));
 
 
             return controlNames;
