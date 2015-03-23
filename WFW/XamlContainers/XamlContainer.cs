@@ -84,7 +84,7 @@ namespace XamlContainers
             var lines = new List<string>();
             var remove = containerName + ".";
             var controlIdentifier = "this." + containerName;
-            controlLines.Where(line => line.Contains(controlIdentifier) && line.Contains("=")).ToList()
+            controlLines.Where(line => line.Split('.').Contains(containerName) && line.Contains("=")).ToList()
                 .ForEach(line => lines.Add(line.Replace(remove, string.Empty)));
 
             return lines;
@@ -104,7 +104,7 @@ namespace XamlContainers
 
            
             var controlNames = new List<string>();
-            lines.Where(line => line.Contains(searchIndicator))
+            lines.Where(line => line.Split('.').Contains(containerName))
                 .ToList()
                 .ForEach(line => 
                 controlNames.Add(line.Trim().Replace(searchIndicator,String.Empty)

@@ -8,10 +8,18 @@
           <ColumnDefinition Width="Auto" />
           <ColumnDefinition Width="*" />
           <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
           <RowDefinition Height="*" />
           <RowDefinition Height="*" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
           <RowDefinition Height="Auto" />
           <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
@@ -168,6 +176,47 @@
                 <CheckBox Canvas.Left="140" Canvas.Top="3" Name="checkBox4" Height="17" Width="80" TabIndex="1" Content="checkBox4" />
               </Canvas>
             </Grid>
+            <TabControl Canvas.Left="10" Canvas.Top="97" Name="tabControl4" Height="154" Width="897">
+              <TabItem Name="tabPage7" Header="tabPage7">
+                <Canvas>
+                  <Grid Background="#FF3399FF" Canvas.Left="4" Canvas.Top="7" Name="tableLayoutPanel11" Height="121" Width="879">
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="*" />
+                      <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Canvas>
+                      <Button Canvas.Left="3" Canvas.Top="3" Name="button17" Height="23" Width="75" TabIndex="0" Content="button17" />
+                      <Button Canvas.Left="442" Canvas.Top="3" Name="button18" Height="23" Width="75" TabIndex="1" Content="button18" />
+                      <Button Canvas.Left="442" Canvas.Top="63" Name="button19" Height="23" Width="75" TabIndex="2" Content="button19" />
+                      <Button Canvas.Left="3" Canvas.Top="63" Name="button20" Height="23" Width="75" TabIndex="3" Content="button20" />
+                    </Canvas>
+                  </Grid>
+                </Canvas>
+              </TabItem>
+              <TabItem Name="tabPage8" Header="tabPage8">
+                <Canvas>
+                  <Grid Canvas.Left="124" Canvas.Top="4" Name="tableLayoutPanel12" Height="124" Width="759">
+                    <Grid.ColumnDefinitions>
+                      <ColumnDefinition Width="*" />
+                      <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                      <RowDefinition Height="*" />
+                      <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Canvas>
+                      <Button Canvas.Left="3" Canvas.Top="3" Name="button22" Height="23" Width="75" TabIndex="0" Content="button22" />
+                      <Button Canvas.Left="382" Canvas.Top="3" Name="button23" Height="23" Width="75" TabIndex="1" Content="button23" />
+                    </Canvas>
+                  </Grid>
+                  <Button Canvas.Left="16" Canvas.Top="4" Name="button21" Height="23" Width="75" TabIndex="0" Content="button21" />
+                </Canvas>
+              </TabItem>
+            </TabControl>
           </Canvas>
         </TabItem>
         <TabItem Background="#FF696969" Name="tabPage2" Header="tabPage2">
