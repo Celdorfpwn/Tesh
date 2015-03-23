@@ -6,10 +6,14 @@
           <ColumnDefinition Width="Auto" />
           <ColumnDefinition Width="Auto" />
           <ColumnDefinition Width="Auto" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
           <RowDefinition Height="*" />
           <RowDefinition Height="*" />
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Canvas>
           <Button Foreground="#FF00FF00" Canvas.Left="3" Canvas.Top="3" Name="button1" Height="23" Width="75" TabIndex="0" Content="button1" />
@@ -78,7 +82,58 @@
               <Button Canvas.Left="140" Canvas.Top="56" Name="button7" Height="23" Width="75" TabIndex="3" Content="button7" />
             </Canvas>
           </Grid>
-          <Button Canvas.Left="3" Canvas.Top="116" Name="button8" Height="23" Width="75" TabIndex="2" Content="button8" />
+          <TabControl Canvas.Left="3" Canvas.Top="116" Name="tabControl2" Height="107" Width="273">
+            <TabItem Name="tabPage3" Header="tabPage3">
+              <Canvas>
+                <Grid Canvas.Left="7" Canvas.Top="4" Name="tableLayoutPanel9" Height="71" Width="252">
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                  </Grid.ColumnDefinitions>
+                  <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                  </Grid.RowDefinitions>
+                  <Canvas>
+                    <Button Canvas.Left="3" Canvas.Top="3" Name="button8" Height="23" Width="75" TabIndex="0" Content="button8" />
+                    <Button Canvas.Left="129" Canvas.Top="3" Name="button13" Height="23" Width="75" TabIndex="1" Content="button13" />
+                    <ComboBox Canvas.Left="3" Canvas.Top="38" Name="comboBox5" Height="21" Width="120" TabIndex="2" />
+                    <CheckBox Canvas.Left="129" Canvas.Top="38" Name="checkBox5" Height="17" Width="80" TabIndex="3" Content="checkBox5" />
+                  </Canvas>
+                </Grid>
+              </Canvas>
+            </TabItem>
+            <TabItem Name="tabPage4" Header="tabPage4">
+              <Canvas>
+                <TabControl Canvas.Left="7" Canvas.Top="4" Name="tabControl3" Height="71" Width="249">
+                  <TabItem Name="tabPage5" Header="tabPage5">
+                    <Canvas>
+                      <Grid Canvas.Left="7" Canvas.Top="4" Name="tableLayoutPanel10" Height="38" Width="228">
+                        <Grid.ColumnDefinitions>
+                          <ColumnDefinition Width="*" />
+                          <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                          <RowDefinition Height="Auto" />
+                          <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Canvas>
+                          <Button Canvas.Left="3" Canvas.Top="3" Name="button14" Height="23" Width="75" TabIndex="0" Content="button14" />
+                          <Button Canvas.Left="117" Canvas.Top="3" Name="button15" Height="30" Width="75" TabIndex="1" Content="button15" />
+                        </Canvas>
+                      </Grid>
+                    </Canvas>
+                  </TabItem>
+                  <TabItem Name="tabPage6" Header="tabPage6">
+                    <Canvas>
+                      <Button Canvas.Left="150" Canvas.Top="19" Name="button16" Height="23" Width="75" TabIndex="1" Content="button16" />
+                      <ComboBox Canvas.Left="6" Canvas.Top="6" Name="comboBox6" Height="21" Width="121" TabIndex="0" />
+                    </Canvas>
+                  </TabItem>
+                </TabControl>
+              </Canvas>
+            </TabItem>
+          </TabControl>
           <CheckBox Canvas.Left="282" Canvas.Top="116" Name="checkBox3" Height="17" Width="80" TabIndex="3" Content="checkBox3" />
         </Canvas>
       </Grid>
