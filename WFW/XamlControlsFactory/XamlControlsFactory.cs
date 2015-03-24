@@ -33,8 +33,8 @@ namespace XamlControlsFactory
                 }
             }
 
-            return controls.Where(attribute => attribute.Processed)
-                .Select(attribute => attribute.XmlNode);
+            return controls.Where(control => control.Processed)
+                .Select(control => control.XmlNode);
         }
     }
 }

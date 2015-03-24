@@ -114,12 +114,12 @@ namespace XamlContainers
             return controlNames;
         }
 
-        private void SetControls(IEnumerable<string> lines, XmlDocument document, IEnumerable<FieldDeclarationSyntax> controlsSyntax)
-        {
-            XamlControlsFactory.XamlControlsFactory
-                .GetControls(lines, document, controlsSyntax)
-                .ToList()
-                .ForEach(control => XmlNode.AppendChild(control));
-        }
+        //private void SetControls(IEnumerable<string> lines, XmlDocument document, IEnumerable<FieldDeclarationSyntax> controlsSyntax)
+        //{
+        //    XamlControlsFactory.XamlControlsFactory
+        //        .GetControls(lines, document, controlsSyntax)
+        //        .ToList()
+        //        .ForEach(control => XmlNode.AppendChild(control));
+        //}
     }
 }

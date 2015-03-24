@@ -25,5 +25,10 @@ namespace WindowsFormsApplication1
                      color.G,
                      color.B);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

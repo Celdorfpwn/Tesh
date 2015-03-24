@@ -70,6 +70,18 @@ namespace WindowsFormsApplication1
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabControl4 = new System.Windows.Forms.TabControl();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.button10 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -80,18 +92,6 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.tabControl4 = new System.Windows.Forms.TabControl();
-            this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -107,15 +107,15 @@ namespace WindowsFormsApplication1
             this.tabPage6.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabControl4.SuspendLayout();
+            this.tabPage7.SuspendLayout();
+            this.tableLayoutPanel11.SuspendLayout();
+            this.tabPage8.SuspendLayout();
+            this.tableLayoutPanel12.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
-            this.tabControl4.SuspendLayout();
-            this.tabPage7.SuspendLayout();
-            this.tabPage8.SuspendLayout();
-            this.tableLayoutPanel11.SuspendLayout();
-            this.tableLayoutPanel12.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -149,6 +149,7 @@ namespace WindowsFormsApplication1
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // checkBox1
             // 
@@ -417,8 +418,8 @@ namespace WindowsFormsApplication1
             // tableLayoutPanel9
             // 
             this.tableLayoutPanel9.ColumnCount = 2;
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel9.Controls.Add(this.button8, 0, 0);
             this.tableLayoutPanel9.Controls.Add(this.button13, 1, 0);
             this.tableLayoutPanel9.Controls.Add(this.comboBox5, 0, 1);
@@ -584,6 +585,135 @@ namespace WindowsFormsApplication1
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
+            // tabControl4
+            // 
+            this.tabControl4.Controls.Add(this.tabPage7);
+            this.tabControl4.Controls.Add(this.tabPage8);
+            this.tabControl4.Location = new System.Drawing.Point(10, 97);
+            this.tabControl4.Name = "tabControl4";
+            this.tabControl4.SelectedIndex = 0;
+            this.tabControl4.Size = new System.Drawing.Size(897, 154);
+            this.tabControl4.TabIndex = 2;
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.Controls.Add(this.tableLayoutPanel11);
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(889, 128);
+            this.tabPage7.TabIndex = 0;
+            this.tabPage7.Text = "tabPage7";
+            this.tabPage7.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.BackColor = System.Drawing.SystemColors.Highlight;
+            this.tableLayoutPanel11.ColumnCount = 2;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.Controls.Add(this.button17, 0, 0);
+            this.tableLayoutPanel11.Controls.Add(this.button18, 1, 0);
+            this.tableLayoutPanel11.Controls.Add(this.button19, 1, 1);
+            this.tableLayoutPanel11.Controls.Add(this.button20, 0, 1);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(4, 7);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 2;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(879, 121);
+            this.tableLayoutPanel11.TabIndex = 0;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(3, 3);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(75, 23);
+            this.button17.TabIndex = 0;
+            this.button17.Text = "button17";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(442, 3);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(75, 23);
+            this.button18.TabIndex = 1;
+            this.button18.Text = "button18";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(442, 63);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(75, 23);
+            this.button19.TabIndex = 2;
+            this.button19.Text = "button19";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(3, 63);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(75, 23);
+            this.button20.TabIndex = 3;
+            this.button20.Text = "button20";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.tableLayoutPanel12);
+            this.tabPage8.Controls.Add(this.button21);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(889, 128);
+            this.tabPage8.TabIndex = 1;
+            this.tabPage8.Text = "tabPage8";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel12
+            // 
+            this.tableLayoutPanel12.ColumnCount = 2;
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Controls.Add(this.button22, 0, 0);
+            this.tableLayoutPanel12.Controls.Add(this.button23, 1, 0);
+            this.tableLayoutPanel12.Location = new System.Drawing.Point(124, 4);
+            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
+            this.tableLayoutPanel12.RowCount = 2;
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(759, 124);
+            this.tableLayoutPanel12.TabIndex = 1;
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(3, 3);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(75, 23);
+            this.button22.TabIndex = 0;
+            this.button22.Text = "button22";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(382, 3);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(75, 23);
+            this.button23.TabIndex = 1;
+            this.button23.Text = "button23";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(16, 4);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(75, 23);
+            this.button21.TabIndex = 0;
+            this.button21.Text = "button21";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
             // tableLayoutPanel7
             // 
             this.tableLayoutPanel7.BackColor = System.Drawing.Color.Gainsboro;
@@ -698,135 +828,6 @@ namespace WindowsFormsApplication1
             this.button12.Text = "button12";
             this.button12.UseVisualStyleBackColor = false;
             // 
-            // tabControl4
-            // 
-            this.tabControl4.Controls.Add(this.tabPage7);
-            this.tabControl4.Controls.Add(this.tabPage8);
-            this.tabControl4.Location = new System.Drawing.Point(10, 97);
-            this.tabControl4.Name = "tabControl4";
-            this.tabControl4.SelectedIndex = 0;
-            this.tabControl4.Size = new System.Drawing.Size(897, 154);
-            this.tabControl4.TabIndex = 2;
-            // 
-            // tabPage7
-            // 
-            this.tabPage7.Controls.Add(this.tableLayoutPanel11);
-            this.tabPage7.Location = new System.Drawing.Point(4, 22);
-            this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(889, 128);
-            this.tabPage7.TabIndex = 0;
-            this.tabPage7.Text = "tabPage7";
-            this.tabPage7.UseVisualStyleBackColor = true;
-            // 
-            // tabPage8
-            // 
-            this.tabPage8.Controls.Add(this.tableLayoutPanel12);
-            this.tabPage8.Controls.Add(this.button21);
-            this.tabPage8.Location = new System.Drawing.Point(4, 22);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(889, 128);
-            this.tabPage8.TabIndex = 1;
-            this.tabPage8.Text = "tabPage8";
-            this.tabPage8.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel11
-            // 
-            this.tableLayoutPanel11.BackColor = System.Drawing.SystemColors.Highlight;
-            this.tableLayoutPanel11.ColumnCount = 2;
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.Controls.Add(this.button17, 0, 0);
-            this.tableLayoutPanel11.Controls.Add(this.button18, 1, 0);
-            this.tableLayoutPanel11.Controls.Add(this.button19, 1, 1);
-            this.tableLayoutPanel11.Controls.Add(this.button20, 0, 1);
-            this.tableLayoutPanel11.Location = new System.Drawing.Point(4, 7);
-            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-            this.tableLayoutPanel11.RowCount = 2;
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(879, 121);
-            this.tableLayoutPanel11.TabIndex = 0;
-            // 
-            // button17
-            // 
-            this.button17.Location = new System.Drawing.Point(3, 3);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(75, 23);
-            this.button17.TabIndex = 0;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // button18
-            // 
-            this.button18.Location = new System.Drawing.Point(442, 3);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(75, 23);
-            this.button18.TabIndex = 1;
-            this.button18.Text = "button18";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // button19
-            // 
-            this.button19.Location = new System.Drawing.Point(442, 63);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(75, 23);
-            this.button19.TabIndex = 2;
-            this.button19.Text = "button19";
-            this.button19.UseVisualStyleBackColor = true;
-            // 
-            // button20
-            // 
-            this.button20.Location = new System.Drawing.Point(3, 63);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(75, 23);
-            this.button20.TabIndex = 3;
-            this.button20.Text = "button20";
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // button21
-            // 
-            this.button21.Location = new System.Drawing.Point(16, 4);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(75, 23);
-            this.button21.TabIndex = 0;
-            this.button21.Text = "button21";
-            this.button21.UseVisualStyleBackColor = true;
-            // 
-            // tableLayoutPanel12
-            // 
-            this.tableLayoutPanel12.ColumnCount = 2;
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Controls.Add(this.button22, 0, 0);
-            this.tableLayoutPanel12.Controls.Add(this.button23, 1, 0);
-            this.tableLayoutPanel12.Location = new System.Drawing.Point(124, 4);
-            this.tableLayoutPanel12.Name = "tableLayoutPanel12";
-            this.tableLayoutPanel12.RowCount = 2;
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(759, 124);
-            this.tableLayoutPanel12.TabIndex = 1;
-            // 
-            // button22
-            // 
-            this.button22.Location = new System.Drawing.Point(3, 3);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(75, 23);
-            this.button22.TabIndex = 0;
-            this.button22.Text = "button22";
-            this.button22.UseVisualStyleBackColor = true;
-            // 
-            // button23
-            // 
-            this.button23.Location = new System.Drawing.Point(382, 3);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(75, 23);
-            this.button23.TabIndex = 1;
-            this.button23.Text = "button23";
-            this.button23.UseVisualStyleBackColor = true;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -860,17 +861,17 @@ namespace WindowsFormsApplication1
             this.tabPage6.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabControl4.ResumeLayout(false);
+            this.tabPage7.ResumeLayout(false);
+            this.tableLayoutPanel11.ResumeLayout(false);
+            this.tabPage8.ResumeLayout(false);
+            this.tableLayoutPanel12.ResumeLayout(false);
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel7.PerformLayout();
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
-            this.tabControl4.ResumeLayout(false);
-            this.tabPage7.ResumeLayout(false);
-            this.tabPage8.ResumeLayout(false);
-            this.tableLayoutPanel11.ResumeLayout(false);
-            this.tableLayoutPanel12.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
