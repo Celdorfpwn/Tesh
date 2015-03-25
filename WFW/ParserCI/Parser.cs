@@ -10,11 +10,11 @@ namespace ParserCI
     public class Parser
     {
         [TestMethod]
-        public void Win2Wpf_CI()
+        public void Win2Wpf_CI001()
         {
-            var actualPath = "../Debug/actual.xaml";
-            var expectedPath = "../Debug/expected.xaml";
-            var contentPath = "../Debug/content.cs";
+            var actualPath = "../Debug/Files/001/actual001.txt";
+            var expectedPath = "../Debug/Files/001/expected001.txt";
+            var contentPath = "../Debug/Files/001/content001.txt";
 
             Wpf.Win2Wpf(contentPath, actualPath);
 

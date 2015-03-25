@@ -67,6 +67,7 @@
     <Compile Include="XamlLabel.cs" />
     <Compile Include="XamlRadioButton.cs" />
     <Compile Include="XamlTextBox.cs" />
+    <Compile Include="XamlTreeView.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AttributesFactory\AttributesFactory.csproj">
