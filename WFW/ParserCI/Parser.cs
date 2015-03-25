@@ -16,6 +16,22 @@ namespace ParserCI
             var expectedPath = "../Debug/Files/001/expected001.txt";
             var contentPath = "../Debug/Files/001/content001.txt";
 
+            ParserCI(actualPath, expectedPath, contentPath);
+        }
+
+        [TestMethod]
+        public void Win2Wpf_CI002()
+        {
+            var actualPath = "../Debug/Files/002/actual002.txt";
+            var expectedPath = "../Debug/Files/002/expected002.txt";
+            var contentPath = "../Debug/Files/002/content002.txt";
+
+            ParserCI(actualPath, expectedPath, contentPath);
+        }
+
+
+        private void ParserCI(string actualPath, string expectedPath, string contentPath)
+        {
             Wpf.Win2Wpf(contentPath, actualPath);
 
             var actual = File.ReadAllLines(actualPath);
@@ -24,10 +40,14 @@ namespace ParserCI
 
             var count = actual.Count();
 
-            for(int index = 0;index<count;index++)
+            for (int index = 0; index < count; index++)
             {
                 Assert.AreEqual(expected[index], actual[index]);
             }
+
+            File.WriteAllText(actualPath, String.Empty);
         }
+
+
     }
 }

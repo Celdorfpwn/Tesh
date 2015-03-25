@@ -28,6 +28,72 @@ namespace WindowsFormsApplication1
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Node5");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Node8");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Node9");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Node10");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Node11");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Node6", new System.Windows.Forms.TreeNode[] {
+            treeNode3,
+            treeNode4,
+            treeNode5,
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node2", new System.Windows.Forms.TreeNode[] {
+            treeNode2,
+            treeNode7,
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Node12");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node14");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Node13", new System.Windows.Forms.TreeNode[] {
+            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Node3", new System.Windows.Forms.TreeNode[] {
+            treeNode10,
+            treeNode12});
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Node4");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Rtoo1", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode9,
+            treeNode13,
+            treeNode14});
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Node24");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Node25");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Node29");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Node30");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Node26", new System.Windows.Forms.TreeNode[] {
+            treeNode18,
+            treeNode19});
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Node16", new System.Windows.Forms.TreeNode[] {
+            treeNode16,
+            treeNode17,
+            treeNode20});
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Node17");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Node20");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Node21");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Node22");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Node31");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Node32");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Node33");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Node23", new System.Windows.Forms.TreeNode[] {
+            treeNode26,
+            treeNode27,
+            treeNode28});
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Node18", new System.Windows.Forms.TreeNode[] {
+            treeNode23,
+            treeNode24,
+            treeNode25,
+            treeNode29});
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Node27");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Node28");
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Node19", new System.Windows.Forms.TreeNode[] {
+            treeNode31,
+            treeNode32});
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Node15", new System.Windows.Forms.TreeNode[] {
+            treeNode21,
+            treeNode22,
+            treeNode30,
+            treeNode33});
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -92,6 +158,7 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -569,19 +636,20 @@ namespace WindowsFormsApplication1
             this.tabControl1.Location = new System.Drawing.Point(29, 257);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1007, 283);
+            this.tabControl1.Size = new System.Drawing.Size(979, 408);
             this.tabControl1.TabIndex = 4;
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.Silver;
+            this.tabPage1.Controls.Add(this.treeView1);
             this.tabPage1.Controls.Add(this.tabControl4);
             this.tabPage1.Controls.Add(this.tableLayoutPanel7);
             this.tabPage1.Controls.Add(this.tableLayoutPanel6);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(999, 257);
+            this.tabPage1.Size = new System.Drawing.Size(971, 382);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
@@ -592,7 +660,7 @@ namespace WindowsFormsApplication1
             this.tabControl4.Location = new System.Drawing.Point(10, 97);
             this.tabControl4.Name = "tabControl4";
             this.tabControl4.SelectedIndex = 0;
-            this.tabControl4.Size = new System.Drawing.Size(897, 154);
+            this.tabControl4.Size = new System.Drawing.Size(555, 151);
             this.tabControl4.TabIndex = 2;
             // 
             // tabPage7
@@ -621,7 +689,7 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel11.RowCount = 2;
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(879, 121);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(383, 77);
             this.tableLayoutPanel11.TabIndex = 0;
             // 
             // button17
@@ -635,7 +703,7 @@ namespace WindowsFormsApplication1
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(442, 3);
+            this.button18.Location = new System.Drawing.Point(194, 3);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(75, 23);
             this.button18.TabIndex = 1;
@@ -644,7 +712,7 @@ namespace WindowsFormsApplication1
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(442, 63);
+            this.button19.Location = new System.Drawing.Point(194, 41);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(75, 23);
             this.button19.TabIndex = 2;
@@ -653,7 +721,7 @@ namespace WindowsFormsApplication1
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(3, 63);
+            this.button20.Location = new System.Drawing.Point(3, 41);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(75, 23);
             this.button20.TabIndex = 3;
@@ -667,7 +735,7 @@ namespace WindowsFormsApplication1
             this.tabPage8.Location = new System.Drawing.Point(4, 22);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(889, 128);
+            this.tabPage8.Size = new System.Drawing.Size(547, 125);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "tabPage8";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -684,7 +752,7 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel12.RowCount = 2;
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(759, 124);
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(427, 121);
             this.tableLayoutPanel12.TabIndex = 1;
             // 
             // button22
@@ -698,7 +766,7 @@ namespace WindowsFormsApplication1
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(382, 3);
+            this.button23.Location = new System.Drawing.Point(216, 3);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(75, 23);
             this.button23.TabIndex = 1;
@@ -788,7 +856,7 @@ namespace WindowsFormsApplication1
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(999, 257);
+            this.tabPage2.Size = new System.Drawing.Size(909, 245);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
@@ -828,11 +896,99 @@ namespace WindowsFormsApplication1
             this.button12.Text = "button12";
             this.button12.UseVisualStyleBackColor = false;
             // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(572, 7);
+            this.treeView1.Name = "treeView1";
+            treeNode1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            treeNode1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode1.Name = "Node1";
+            treeNode1.Text = "Node1";
+            treeNode2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            treeNode2.Name = "Node5";
+            treeNode2.Text = "Node5";
+            treeNode3.Name = "Node8";
+            treeNode3.Text = "Node8";
+            treeNode4.Name = "Node9";
+            treeNode4.Text = "Node9";
+            treeNode5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            treeNode5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            treeNode5.Name = "Node10";
+            treeNode5.Text = "Node10";
+            treeNode6.Name = "Node11";
+            treeNode6.Text = "Node11";
+            treeNode7.Name = "Node6";
+            treeNode7.Text = "Node6";
+            treeNode8.Name = "Node7";
+            treeNode8.Text = "Node7";
+            treeNode9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            treeNode9.Name = "Node2";
+            treeNode9.Text = "Node2";
+            treeNode10.Name = "Node12";
+            treeNode10.Text = "Node12";
+            treeNode11.Name = "Node14";
+            treeNode11.Text = "Node14";
+            treeNode12.Name = "Node13";
+            treeNode12.Text = "Node13";
+            treeNode13.Name = "Node3";
+            treeNode13.Text = "Node3";
+            treeNode14.Name = "Node4";
+            treeNode14.Text = "Node4";
+            treeNode15.BackColor = System.Drawing.Color.Red;
+            treeNode15.ForeColor = System.Drawing.Color.White;
+            treeNode15.Name = "Root1";
+            treeNode15.Text = "Rtoo1";
+            treeNode16.Name = "Node24";
+            treeNode16.Text = "Node24";
+            treeNode17.Name = "Node25";
+            treeNode17.Text = "Node25";
+            treeNode18.Name = "Node29";
+            treeNode18.Text = "Node29";
+            treeNode19.Name = "Node30";
+            treeNode19.Text = "Node30";
+            treeNode20.Name = "Node26";
+            treeNode20.Text = "Node26";
+            treeNode21.Name = "Node16";
+            treeNode21.Text = "Node16";
+            treeNode22.Name = "Node17";
+            treeNode22.Text = "Node17";
+            treeNode23.Name = "Node20";
+            treeNode23.Text = "Node20";
+            treeNode24.BackColor = System.Drawing.Color.Red;
+            treeNode24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            treeNode24.Name = "Node21";
+            treeNode24.Text = "Node21";
+            treeNode25.Name = "Node22";
+            treeNode25.Text = "Node22";
+            treeNode26.Name = "Node31";
+            treeNode26.Text = "Node31";
+            treeNode27.Name = "Node32";
+            treeNode27.Text = "Node32";
+            treeNode28.Name = "Node33";
+            treeNode28.Text = "Node33";
+            treeNode29.Name = "Node23";
+            treeNode29.Text = "Node23";
+            treeNode30.Name = "Node18";
+            treeNode30.Text = "Node18";
+            treeNode31.Name = "Node27";
+            treeNode31.Text = "Node27";
+            treeNode32.Name = "Node28";
+            treeNode32.Text = "Node28";
+            treeNode33.Name = "Node19";
+            treeNode33.Text = "Node19";
+            treeNode34.Name = "Node15";
+            treeNode34.Text = "Node15";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode15,
+            treeNode34});
+            this.treeView1.Size = new System.Drawing.Size(393, 369);
+            this.treeView1.TabIndex = 3;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1066, 552);
+            this.ClientSize = new System.Drawing.Size(1136, 690);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -942,5 +1098,6 @@ namespace WindowsFormsApplication1
         private System.Windows.Forms.Button button21;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.TreeView treeView1;
     }
 }
