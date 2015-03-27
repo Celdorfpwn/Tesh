@@ -19,7 +19,7 @@ namespace XamlContainers
                 return Assembly
                     .GetExecutingAssembly()
                     .GetTypes()
-                    .Where(type => !type.IsAbstract && !type.Name.Contains("<>"));
+                    .Where(type => !type.IsAbstract && !type.Name.Contains("<") && !type.Name.Contains("_"));
             }
         }
     }

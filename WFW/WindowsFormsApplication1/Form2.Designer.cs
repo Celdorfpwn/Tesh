@@ -94,6 +94,33 @@ namespace WindowsFormsApplication1
             treeNode22,
             treeNode30,
             treeNode33});
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Node0");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Node7");
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Node8");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Node9");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Node10");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Node11");
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Node1", new System.Windows.Forms.TreeNode[] {
+            treeNode36,
+            treeNode37,
+            treeNode38,
+            treeNode39,
+            treeNode40});
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Node3");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Node12");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Node13");
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Node14");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Node4", new System.Windows.Forms.TreeNode[] {
+            treeNode44,
+            treeNode45,
+            treeNode46});
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Node5");
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Node6");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Node0");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Node1");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Node2");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Node3");
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -136,6 +163,7 @@ namespace WindowsFormsApplication1
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.treeView1 = new System.Windows.Forms.TreeView();
             this.tabControl4 = new System.Windows.Forms.TabControl();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
@@ -158,7 +186,11 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
-            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
+            this.treeView2 = new System.Windows.Forms.TreeView();
+            this.button24 = new System.Windows.Forms.Button();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.treeView3 = new System.Windows.Forms.TreeView();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -183,6 +215,7 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel6.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tableLayoutPanel8.SuspendLayout();
+            this.tableLayoutPanel13.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -653,6 +686,96 @@ namespace WindowsFormsApplication1
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
+            // treeView1
+            // 
+            this.treeView1.Location = new System.Drawing.Point(572, 7);
+            this.treeView1.Name = "treeView1";
+            treeNode1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            treeNode1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            treeNode1.Name = "Node1";
+            treeNode1.Text = "Node1";
+            treeNode2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            treeNode2.Name = "Node5";
+            treeNode2.Text = "Node5";
+            treeNode3.Name = "Node8";
+            treeNode3.Text = "Node8";
+            treeNode4.Name = "Node9";
+            treeNode4.Text = "Node9";
+            treeNode5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            treeNode5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            treeNode5.Name = "Node10";
+            treeNode5.Text = "Node10";
+            treeNode6.Name = "Node11";
+            treeNode6.Text = "Node11";
+            treeNode7.Name = "Node6";
+            treeNode7.Text = "Node6";
+            treeNode8.Name = "Node7";
+            treeNode8.Text = "Node7";
+            treeNode9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            treeNode9.Name = "Node2";
+            treeNode9.Text = "Node2";
+            treeNode10.Name = "Node12";
+            treeNode10.Text = "Node12";
+            treeNode11.Name = "Node14";
+            treeNode11.Text = "Node14";
+            treeNode12.Name = "Node13";
+            treeNode12.Text = "Node13";
+            treeNode13.Name = "Node3";
+            treeNode13.Text = "Node3";
+            treeNode14.Name = "Node4";
+            treeNode14.Text = "Node4";
+            treeNode15.BackColor = System.Drawing.Color.Red;
+            treeNode15.ForeColor = System.Drawing.Color.White;
+            treeNode15.Name = "Root1";
+            treeNode15.Text = "Rtoo1";
+            treeNode16.Name = "Node24";
+            treeNode16.Text = "Node24";
+            treeNode17.Name = "Node25";
+            treeNode17.Text = "Node25";
+            treeNode18.Name = "Node29";
+            treeNode18.Text = "Node29";
+            treeNode19.Name = "Node30";
+            treeNode19.Text = "Node30";
+            treeNode20.Name = "Node26";
+            treeNode20.Text = "Node26";
+            treeNode21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            treeNode21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            treeNode21.Name = "Node16";
+            treeNode21.Text = "Node16";
+            treeNode22.Name = "Node17";
+            treeNode22.Text = "Node17";
+            treeNode23.Name = "Node20";
+            treeNode23.Text = "Node20";
+            treeNode24.BackColor = System.Drawing.Color.Red;
+            treeNode24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            treeNode24.Name = "Node21";
+            treeNode24.Text = "Node21";
+            treeNode25.Name = "Node22";
+            treeNode25.Text = "Node22";
+            treeNode26.Name = "Node31";
+            treeNode26.Text = "Node31";
+            treeNode27.Name = "Node32";
+            treeNode27.Text = "Node32";
+            treeNode28.Name = "Node33";
+            treeNode28.Text = "Node33";
+            treeNode29.Name = "Node23";
+            treeNode29.Text = "Node23";
+            treeNode30.Name = "Node18";
+            treeNode30.Text = "Node18";
+            treeNode31.Name = "Node27";
+            treeNode31.Text = "Node27";
+            treeNode32.Name = "Node28";
+            treeNode32.Text = "Node28";
+            treeNode33.Name = "Node19";
+            treeNode33.Text = "Node19";
+            treeNode34.Name = "Node15";
+            treeNode34.Text = "Node15";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode15,
+            treeNode34});
+            this.treeView1.Size = new System.Drawing.Size(393, 369);
+            this.treeView1.TabIndex = 3;
+            // 
             // tabControl4
             // 
             this.tabControl4.Controls.Add(this.tabPage7);
@@ -669,7 +792,7 @@ namespace WindowsFormsApplication1
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(889, 128);
+            this.tabPage7.Size = new System.Drawing.Size(547, 125);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "tabPage7";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -856,7 +979,7 @@ namespace WindowsFormsApplication1
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(909, 245);
+            this.tabPage2.Size = new System.Drawing.Size(971, 382);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             // 
@@ -896,99 +1019,114 @@ namespace WindowsFormsApplication1
             this.button12.Text = "button12";
             this.button12.UseVisualStyleBackColor = false;
             // 
-            // treeView1
+            // tableLayoutPanel13
             // 
-            this.treeView1.Location = new System.Drawing.Point(572, 7);
-            this.treeView1.Name = "treeView1";
-            treeNode1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            treeNode1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            treeNode1.Name = "Node1";
-            treeNode1.Text = "Node1";
-            treeNode2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            treeNode2.Name = "Node5";
-            treeNode2.Text = "Node5";
-            treeNode3.Name = "Node8";
-            treeNode3.Text = "Node8";
-            treeNode4.Name = "Node9";
-            treeNode4.Text = "Node9";
-            treeNode5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            treeNode5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            treeNode5.Name = "Node10";
-            treeNode5.Text = "Node10";
-            treeNode6.Name = "Node11";
-            treeNode6.Text = "Node11";
-            treeNode7.Name = "Node6";
-            treeNode7.Text = "Node6";
-            treeNode8.Name = "Node7";
-            treeNode8.Text = "Node7";
-            treeNode9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            treeNode9.Name = "Node2";
-            treeNode9.Text = "Node2";
-            treeNode10.Name = "Node12";
-            treeNode10.Text = "Node12";
-            treeNode11.Name = "Node14";
-            treeNode11.Text = "Node14";
-            treeNode12.Name = "Node13";
-            treeNode12.Text = "Node13";
-            treeNode13.Name = "Node3";
-            treeNode13.Text = "Node3";
-            treeNode14.Name = "Node4";
-            treeNode14.Text = "Node4";
-            treeNode15.BackColor = System.Drawing.Color.Red;
-            treeNode15.ForeColor = System.Drawing.Color.White;
-            treeNode15.Name = "Root1";
-            treeNode15.Text = "Rtoo1";
-            treeNode16.Name = "Node24";
-            treeNode16.Text = "Node24";
-            treeNode17.Name = "Node25";
-            treeNode17.Text = "Node25";
-            treeNode18.Name = "Node29";
-            treeNode18.Text = "Node29";
-            treeNode19.Name = "Node30";
-            treeNode19.Text = "Node30";
-            treeNode20.Name = "Node26";
-            treeNode20.Text = "Node26";
-            treeNode21.Name = "Node16";
-            treeNode21.Text = "Node16";
-            treeNode22.Name = "Node17";
-            treeNode22.Text = "Node17";
-            treeNode23.Name = "Node20";
-            treeNode23.Text = "Node20";
-            treeNode24.BackColor = System.Drawing.Color.Red;
-            treeNode24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            treeNode24.Name = "Node21";
-            treeNode24.Text = "Node21";
-            treeNode25.Name = "Node22";
-            treeNode25.Text = "Node22";
-            treeNode26.Name = "Node31";
-            treeNode26.Text = "Node31";
-            treeNode27.Name = "Node32";
-            treeNode27.Text = "Node32";
-            treeNode28.Name = "Node33";
-            treeNode28.Text = "Node33";
-            treeNode29.Name = "Node23";
-            treeNode29.Text = "Node23";
-            treeNode30.Name = "Node18";
-            treeNode30.Text = "Node18";
-            treeNode31.Name = "Node27";
-            treeNode31.Text = "Node27";
-            treeNode32.Name = "Node28";
-            treeNode32.Text = "Node28";
-            treeNode33.Name = "Node19";
-            treeNode33.Text = "Node19";
-            treeNode34.Name = "Node15";
-            treeNode34.Text = "Node15";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode15,
-            treeNode34});
-            this.treeView1.Size = new System.Drawing.Size(393, 369);
-            this.treeView1.TabIndex = 3;
+            this.tableLayoutPanel13.ColumnCount = 2;
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.Controls.Add(this.treeView2, 0, 0);
+            this.tableLayoutPanel13.Controls.Add(this.button24, 1, 0);
+            this.tableLayoutPanel13.Controls.Add(this.dateTimePicker2, 1, 1);
+            this.tableLayoutPanel13.Controls.Add(this.treeView3, 0, 1);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(1043, 24);
+            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
+            this.tableLayoutPanel13.RowCount = 2;
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(408, 651);
+            this.tableLayoutPanel13.TabIndex = 5;
+            // 
+            // treeView2
+            // 
+            this.treeView2.Location = new System.Drawing.Point(3, 3);
+            this.treeView2.Name = "treeView2";
+            treeNode35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            treeNode35.ForeColor = System.Drawing.Color.Lime;
+            treeNode35.Name = "Node0";
+            treeNode35.Text = "Node0";
+            treeNode36.Name = "Node7";
+            treeNode36.Text = "Node7";
+            treeNode37.Name = "Node8";
+            treeNode37.Text = "Node8";
+            treeNode38.Name = "Node9";
+            treeNode38.Text = "Node9";
+            treeNode39.Name = "Node10";
+            treeNode39.Text = "Node10";
+            treeNode40.Name = "Node11";
+            treeNode40.Text = "Node11";
+            treeNode41.Name = "Node1";
+            treeNode41.Text = "Node1";
+            treeNode42.Name = "Node2";
+            treeNode42.Text = "Node2";
+            treeNode43.Name = "Node3";
+            treeNode43.Text = "Node3";
+            treeNode44.Name = "Node12";
+            treeNode44.Text = "Node12";
+            treeNode45.Name = "Node13";
+            treeNode45.Text = "Node13";
+            treeNode46.Name = "Node14";
+            treeNode46.Text = "Node14";
+            treeNode47.Name = "Node4";
+            treeNode47.Text = "Node4";
+            treeNode48.Name = "Node5";
+            treeNode48.Text = "Node5";
+            treeNode49.Name = "Node6";
+            treeNode49.Text = "Node6";
+            this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode35,
+            treeNode41,
+            treeNode42,
+            treeNode43,
+            treeNode47,
+            treeNode48,
+            treeNode49});
+            this.treeView2.Size = new System.Drawing.Size(198, 319);
+            this.treeView2.TabIndex = 0;
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(207, 3);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(75, 23);
+            this.button24.TabIndex = 1;
+            this.button24.Text = "button24";
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(207, 328);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(198, 20);
+            this.dateTimePicker2.TabIndex = 3;
+            // 
+            // treeView3
+            // 
+            this.treeView3.Location = new System.Drawing.Point(3, 328);
+            this.treeView3.Name = "treeView3";
+            treeNode50.Name = "Node0";
+            treeNode50.Text = "Node0";
+            treeNode51.Name = "Node1";
+            treeNode51.Text = "Node1";
+            treeNode52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            treeNode52.ForeColor = System.Drawing.Color.Yellow;
+            treeNode52.Name = "Node2";
+            treeNode52.Text = "Node2";
+            treeNode53.Name = "Node3";
+            treeNode53.Text = "Node3";
+            this.treeView3.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode50,
+            treeNode51,
+            treeNode52,
+            treeNode53});
+            this.treeView3.Size = new System.Drawing.Size(198, 320);
+            this.treeView3.TabIndex = 4;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1136, 690);
+            this.ClientSize = new System.Drawing.Size(1476, 687);
+            this.Controls.Add(this.tableLayoutPanel13);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.tableLayoutPanel3);
             this.Controls.Add(this.tableLayoutPanel2);
@@ -1028,6 +1166,7 @@ namespace WindowsFormsApplication1
             this.tableLayoutPanel6.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel13.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1099,5 +1238,10 @@ namespace WindowsFormsApplication1
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
+        private System.Windows.Forms.TreeView treeView2;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.TreeView treeView3;
     }
 }

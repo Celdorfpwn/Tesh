@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7c63ca42-e4ff-4a82-806d-50557a370de7" name="ionut.apostol@P5446 2015-03-25 11:04:27" runUser="P5446\ionut.apostol" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-03-25T11:04:28.0054472+02:00" queuing="2015-03-25T11:04:28.0074473+02:00" start="2015-03-25T11:04:28.0134476+02:00" finish="2015-03-25T11:04:28.1104532+02:00" />
+  <TestSettings name="default" id="8e24e730-9f1f-4570-9125-d0fd721f5822">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="ionut.apostol_P5446 2015-03-25 11_04_27" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c8003145-0724-45b3-ab4b-8798e687ad9e" testId="073d582b-e2f3-b372-53fd-6436597d027a" testName="Win2Wpf_CI002" computerName="P5446" duration="00:00:00.9567226" startTime="2015-03-25T11:04:26.7373746+02:00" endTime="2015-03-25T11:04:27.9214423+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8003145-0724-45b3-ab4b-8798e687ad9e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Win2Wpf_CI002" storage="d:\projects\wfw\wfw\parserci\bin\debug\parserci.dll" id="073d582b-e2f3-b372-53fd-6436597d027a">
+      <Execution id="c8003145-0724-45b3-ab4b-8798e687ad9e" />
+      <TestMethod codeBase="D:\Projects\WFW\WFW\ParserCI\bin\Debug\ParserCI.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ParserCI.Parser" name="Win2Wpf_CI002" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="073d582b-e2f3-b372-53fd-6436597d027a" executionId="c8003145-0724-45b3-ab4b-8798e687ad9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

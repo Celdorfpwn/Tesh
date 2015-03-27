@@ -89,6 +89,7 @@ namespace XamlControls
 
                 xmlNode.Attributes.RemoveNamedItem("Content");
                 xmlNode.Attributes.Append(headerAttribute);
+                xmlNode.Attributes.RemoveNamedItem("Name");
 
                 var mainNodes = GetSubNodesName(lines, nodeName);
                 GetNodes(mainNodes, lines, document).ForEach(node => xmlNode.AppendChild(node));
