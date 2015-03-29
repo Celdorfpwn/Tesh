@@ -95,7 +95,7 @@ namespace XamlContainers
             return containerType.Trim().Equals(ContainerType);
         }
 
-        private IEnumerable<string> GetContainerControls(IEnumerable<string> lines,string containerName)
+        protected virtual IEnumerable<string> GetContainerControls(IEnumerable<string> lines,string containerName)
         {
             var searchIndicator = new StringBuilder()
                 .Append("this.")
@@ -114,12 +114,5 @@ namespace XamlContainers
             return controlNames;
         }
 
-        //private void SetControls(IEnumerable<string> lines, XmlDocument document, IEnumerable<FieldDeclarationSyntax> controlsSyntax)
-        //{
-        //    XamlControlsFactory.XamlControlsFactory
-        //        .GetControls(lines, document, controlsSyntax)
-        //        .ToList()
-        //        .ForEach(control => XmlNode.AppendChild(control));
-        //}
     }
 }

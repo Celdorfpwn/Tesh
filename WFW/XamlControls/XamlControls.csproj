@@ -60,13 +60,16 @@
     <Compile Include="ControlsTypes.cs" />
     <Compile Include="XamlButton.cs" />
     <Compile Include="XamlCheckBox.cs" />
+    <Compile Include="XamlCheckBoxColumn.cs" />
     <Compile Include="XamlComboBox.cs" />
     <Compile Include="XamlControl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XamlDataGridColumn.cs" />
     <Compile Include="XamlDatePicker.cs" />
     <Compile Include="XamlLabel.cs" />
     <Compile Include="XamlRadioButton.cs" />
     <Compile Include="XamlTextBox.cs" />
+    <Compile Include="XamlTextBoxColumn.cs" />
     <Compile Include="XamlTreeView.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -70,6 +70,7 @@
     <Compile Include="XamlForeground.cs" />
     <Compile Include="XamlGridColumn.cs" />
     <Compile Include="XamlGridRow.cs" />
+    <Compile Include="XamlHeader.cs" />
     <Compile Include="XamlHeight.cs" />
     <Compile Include="XamlName.cs" />
     <Compile Include="XamlTabIndex.cs" />

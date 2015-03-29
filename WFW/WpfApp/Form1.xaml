@@ -1,333 +1,73 @@
-﻿<Window x:Class="WindowsFormsApplication1.Form1" Width="1492" Height="725" Title="Form2" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+﻿<Window x:Class="WindowsFormsApplication1.Chrome" Width="1177" Height="641" Title="Chrome" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
     <Grid>
         <Canvas>
-            <Grid Background="#FFFF8000" Canvas.Left="26" Canvas.Top="24" Name="tableLayoutPanel1" Height="75" Width="445">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Canvas>
-                    <Button Grid.Column="0" Grid.Row="0" Foreground="#FF00FF00" Canvas.Left="3" Canvas.Top="3" Name="button1" Height="23" Width="75" TabIndex="0" Content="button1" Click="button1_Click" />
-                    <CheckBox Grid.Column="1" Grid.Row="1" Foreground="#FFC04000" Canvas.Left="209" Canvas.Top="40" Name="checkBox1" Height="17" Width="80" TabIndex="2" Content="checkBox1" />
-                    <DatePicker Grid.Column="0" Grid.Row="1" Foreground="#00000000" Canvas.Left="3" Canvas.Top="40" Name="dateTimePicker1" Height="20" Width="200" TabIndex="3" Padding="0" />
-                    <TextBox Grid.Column="1" Grid.Row="0" Background="#FFF08080" Foreground="#FF800000" Canvas.Left="209" Canvas.Top="3" Name="textBox1" Height="20" Width="100" TabIndex="4" />
-                    <Button Grid.Column="2" Grid.Row="0" Background="#FFF0F0F0" Foreground="#FFA0A0A0" Canvas.Left="315" Canvas.Top="3" Name="button2" Height="23" Width="75" TabIndex="5" Content="button2" />
-                    <ComboBox Grid.Column="2" Grid.Row="1" Background="#FF3399FF" Canvas.Left="315" Canvas.Top="40" Name="comboBox1" Height="21" Width="121" TabIndex="6" />
-                </Canvas>
-            </Grid>
-            <Grid Background="#FFFFFFE1" Canvas.Left="26" Canvas.Top="105" Name="tableLayoutPanel2" Height="145" Width="445">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <Canvas>
-                    <Button Grid.Column="0" Grid.Row="0" Background="#FF0066CC" Canvas.Left="3" Canvas.Top="3" Name="button3" Height="23" Width="75" TabIndex="0" Content="button3" />
-                    <ComboBox Grid.Column="1" Grid.Row="0" Background="#FF434E54" Canvas.Left="225" Canvas.Top="3" Name="comboBox2" Height="21" Width="94" TabIndex="1" />
-                    <TextBox Grid.Column="0" Grid.Row="1" Background="#FFD7E4F2" Foreground="#FF400000" Canvas.Left="3" Canvas.Top="75" Name="textBox2" Height="20" Width="94" TabIndex="2" Text="Hello?" />
-                    <Label Grid.Column="1" Grid.Row="1" Background="#FF9370DB" Foreground="#FFA52A2A" Canvas.Left="225" Canvas.Top="72" Name="label1" Height="13" Width="35" TabIndex="3" Content="label1" Padding="0" />
-                </Canvas>
-            </Grid>
-            <Grid Background="#FFABABAB" Canvas.Left="477" Canvas.Top="24" Name="tableLayoutPanel3" Height="226" Width="559">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <Canvas>
-                    <Grid Background="#FF99B4D1" Canvas.Left="3" Canvas.Top="3" Name="tableLayoutPanel4" Height="107" Width="273">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
-                        </Grid.RowDefinitions>
-                        <Canvas>
-                            <Button Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="button4" Height="23" Width="75" TabIndex="0" Content="button4" />
-                            <CheckBox Grid.Column="1" Grid.Row="0" Canvas.Left="139" Canvas.Top="3" Name="checkBox2" Height="17" Width="80" TabIndex="1" Content="checkBox2" />
-                            <Button Grid.Column="0" Grid.Row="1" Canvas.Left="3" Canvas.Top="56" Name="button5" Height="23" Width="75" TabIndex="2" Content="button5" />
-                            <ComboBox Grid.Column="1" Grid.Row="1" Canvas.Left="139" Canvas.Top="56" Name="comboBox3" Height="21" Width="121" TabIndex="3" />
-                        </Canvas>
-                    </Grid>
-                    <Grid Background="#FF3399FF" Canvas.Left="282" Canvas.Top="3" Name="tableLayoutPanel5" Height="107" Width="274">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
-                        </Grid.RowDefinitions>
-                        <Canvas>
-                            <RadioButton Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="radioButton1" Height="17" Width="85" TabIndex="0" Content="radioButton1" />
-                            <ComboBox Grid.Column="1" Grid.Row="0" Canvas.Left="140" Canvas.Top="3" Name="comboBox4" Height="21" Width="121" TabIndex="1" />
-                            <Button Grid.Column="0" Grid.Row="1" Canvas.Left="3" Canvas.Top="56" Name="button6" Height="23" Width="75" TabIndex="2" Content="button6" />
-                            <Button Grid.Column="1" Grid.Row="1" Canvas.Left="140" Canvas.Top="56" Name="button7" Height="23" Width="75" TabIndex="3" Content="button7" />
-                        </Canvas>
-                    </Grid>
-                    <TabControl Canvas.Left="3" Canvas.Top="116" Name="tabControl2" Height="107" Width="273">
-                        <TabItem Name="tabPage3" Header="tabPage3">
-                            <Canvas>
-                                <Grid Canvas.Left="7" Canvas.Top="4" Name="tableLayoutPanel9" Height="71" Width="252">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="Auto" />
-                                        <ColumnDefinition Width="Auto" />
-                                    </Grid.ColumnDefinitions>
-                                    <Grid.RowDefinitions>
-                                        <RowDefinition Height="*" />
-                                        <RowDefinition Height="*" />
-                                    </Grid.RowDefinitions>
-                                    <Canvas>
-                                        <Button Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="button8" Height="23" Width="75" TabIndex="0" Content="button8" />
-                                        <Button Grid.Column="1" Grid.Row="0" Canvas.Left="129" Canvas.Top="3" Name="button13" Height="23" Width="75" TabIndex="1" Content="button13" />
-                                        <ComboBox Grid.Column="0" Grid.Row="1" Canvas.Left="3" Canvas.Top="38" Name="comboBox5" Height="21" Width="120" TabIndex="2" />
-                                        <CheckBox Grid.Column="1" Grid.Row="1" Canvas.Left="129" Canvas.Top="38" Name="checkBox5" Height="17" Width="80" TabIndex="3" Content="checkBox5" />
-                                    </Canvas>
-                                </Grid>
-                            </Canvas>
-                        </TabItem>
-                        <TabItem Name="tabPage4" Header="tabPage4">
-                            <Canvas>
-                                <TabControl Canvas.Left="7" Canvas.Top="4" Name="tabControl3" Height="71" Width="249">
-                                    <TabItem Name="tabPage5" Header="tabPage5">
-                                        <Canvas>
-                                            <Grid Canvas.Left="7" Canvas.Top="4" Name="tableLayoutPanel10" Height="38" Width="228">
-                                                <Grid.ColumnDefinitions>
-                                                    <ColumnDefinition Width="*" />
-                                                    <ColumnDefinition Width="*" />
-                                                </Grid.ColumnDefinitions>
-                                                <Grid.RowDefinitions>
-                                                    <RowDefinition Height="Auto" />
-                                                    <RowDefinition Height="Auto" />
-                                                </Grid.RowDefinitions>
-                                                <Canvas>
-                                                    <Button Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="button14" Height="23" Width="75" TabIndex="0" Content="button14" />
-                                                    <Button Grid.Column="1" Grid.Row="0" Canvas.Left="117" Canvas.Top="3" Name="button15" Height="30" Width="75" TabIndex="1" Content="button15" />
-                                                </Canvas>
-                                            </Grid>
-                                        </Canvas>
-                                    </TabItem>
-                                    <TabItem Name="tabPage6" Header="tabPage6">
-                                        <Canvas>
-                                            <Button Canvas.Left="150" Canvas.Top="19" Name="button16" Height="23" Width="75" TabIndex="1" Content="button16" />
-                                            <ComboBox Canvas.Left="6" Canvas.Top="6" Name="comboBox6" Height="21" Width="121" TabIndex="0" />
-                                        </Canvas>
-                                    </TabItem>
-                                </TabControl>
-                            </Canvas>
-                        </TabItem>
-                    </TabControl>
-                    <CheckBox Grid.Column="1" Grid.Row="1" Canvas.Left="282" Canvas.Top="116" Name="checkBox3" Height="17" Width="80" TabIndex="3" Content="checkBox3" />
-                </Canvas>
-            </Grid>
-            <TabControl Canvas.Left="29" Canvas.Top="257" Name="tabControl1" Height="408" Width="979">
-                <TabItem Background="#FFC0C0C0" Name="tabPage1" Header="tabPage1">
+            <TabControl Canvas.Left="-2" Canvas.Top="0" Name="tabControl1" Height="602" Width="1162">
+                <TabItem Name="tabPage1" Header="Point of sale">
                     <Canvas>
-                        <Grid Background="#FFDCDCDC" Canvas.Left="289" Canvas.Top="7" Name="tableLayoutPanel7" Height="83" Width="276">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*" />
-                                <RowDefinition Height="*" />
-                            </Grid.RowDefinitions>
-                            <Canvas>
-                                <Button Grid.Column="1" Grid.Row="1" Canvas.Left="141" Canvas.Top="44" Name="button10" Height="23" Width="75" TabIndex="0" Content="button10" />
-                                <TextBox Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="textBox3" Height="20" Width="100" TabIndex="1" />
-                            </Canvas>
-                        </Grid>
-                        <Grid Background="#FFB22222" Canvas.Left="7" Canvas.Top="7" Name="tableLayoutPanel6" Height="83" Width="275">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*" />
-                                <RowDefinition Height="*" />
-                            </Grid.RowDefinitions>
-                            <Canvas>
-                                <Button Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="button9" Height="23" Width="75" TabIndex="0" Content="button9" />
-                                <CheckBox Grid.Column="1" Grid.Row="0" Canvas.Left="140" Canvas.Top="3" Name="checkBox4" Height="17" Width="80" TabIndex="1" Content="checkBox4" />
-                            </Canvas>
-                        </Grid>
-                        <TabControl Canvas.Left="10" Canvas.Top="97" Name="tabControl4" Height="151" Width="555">
-                            <TabItem Name="tabPage7" Header="tabPage7">
+                        <TabControl Canvas.Left="212" Canvas.Top="88" Name="tabControl2" Height="488" Width="939">
+                            <TabItem Name="tabPage3" Header="Summary">
+                                <Canvas />
+                            </TabItem>
+                            <TabItem Name="tabPage4" Header="Transaction History">
+                                <Canvas />
+                            </TabItem>
+                            <TabItem Name="tabPage5" Header="Order #23432233432">
                                 <Canvas>
-                                    <Grid Background="#FF3399FF" Canvas.Left="4" Canvas.Top="7" Name="tableLayoutPanel11" Height="77" Width="383">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                        </Grid.ColumnDefinitions>
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="*" />
-                                            <RowDefinition Height="*" />
-                                        </Grid.RowDefinitions>
-                                        <Canvas>
-                                            <Button Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="button17" Height="23" Width="75" TabIndex="0" Content="button17" />
-                                            <Button Grid.Column="1" Grid.Row="0" Canvas.Left="194" Canvas.Top="3" Name="button18" Height="23" Width="75" TabIndex="1" Content="button18" />
-                                            <Button Grid.Column="1" Grid.Row="1" Canvas.Left="194" Canvas.Top="41" Name="button19" Height="23" Width="75" TabIndex="2" Content="button19" />
-                                            <Button Grid.Column="0" Grid.Row="1" Canvas.Left="3" Canvas.Top="41" Name="button20" Height="23" Width="75" TabIndex="3" Content="button20" />
-                                        </Canvas>
-                                    </Grid>
+                                    <DataGrid Canvas.Left="7" Canvas.Top="118" Name="dataGridView1" Height="179" Width="921">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Part #" Width="*" />
+                                            <DataGridTextColumn Header="ListPrice" Width="*" />
+                                            <DataGridTextColumn Header="LineType" Width="*" />
+                                            <DataGridTextColumn Header="Discount" Width="*" />
+                                            <DataGridCheckBoxColumn Header="TaxExempt" Width="*" />
+                                            <DataGridCheckBoxColumn Header="Reorder" Width="*" />
+                                            <DataGridTextColumn Header="Notes" Width="*" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
                                 </Canvas>
                             </TabItem>
-                            <TabItem Name="tabPage8" Header="tabPage8">
-                                <Canvas>
-                                    <Grid Canvas.Left="124" Canvas.Top="4" Name="tableLayoutPanel12" Height="121" Width="427">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                        </Grid.ColumnDefinitions>
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="*" />
-                                            <RowDefinition Height="*" />
-                                        </Grid.RowDefinitions>
-                                        <Canvas>
-                                            <Button Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="button22" Height="23" Width="75" TabIndex="0" Content="button22" />
-                                            <Button Grid.Column="1" Grid.Row="0" Canvas.Left="216" Canvas.Top="3" Name="button23" Height="23" Width="75" TabIndex="1" Content="button23" />
-                                        </Canvas>
-                                    </Grid>
-                                    <Button Canvas.Left="16" Canvas.Top="4" Name="button21" Height="23" Width="75" TabIndex="0" Content="button21" />
-                                </Canvas>
+                            <TabItem Name="tabPage6" Header="Order #223333445667">
+                                <Canvas />
                             </TabItem>
                         </TabControl>
-                        <TreeView Canvas.Left="572" Canvas.Top="7" Name="treeView1" Height="369" Width="393" TabIndex="3">
-                            <TreeViewItem Background="#FFFF0000" Foreground="#FFFFFFFF" Header="Rtoo1">
-                                <TreeViewItem Background="#FF0000C0" Foreground="#FFFF8080" Header="Node1" />
-                                <TreeViewItem Background="#FFC0FFC0" Header="Node2">
-                                    <TreeViewItem Foreground="#FF80FF80" Header="Node5" />
-                                    <TreeViewItem Header="Node6">
-                                        <TreeViewItem Header="Node8" />
-                                        <TreeViewItem Header="Node9" />
-                                        <TreeViewItem Background="#FFFFC080" Foreground="#FF000040" Header="Node10" />
-                                        <TreeViewItem Header="Node11" />
-                                    </TreeViewItem>
-                                    <TreeViewItem Header="Node7" />
-                                </TreeViewItem>
-                                <TreeViewItem Header="Node3">
-                                    <TreeViewItem Header="Node12" />
-                                    <TreeViewItem Header="Node13">
-                                        <TreeViewItem Header="Node14" />
-                                    </TreeViewItem>
-                                </TreeViewItem>
-                                <TreeViewItem Header="Node4" />
+                        <Grid Canvas.Left="0" Canvas.Top="0" Name="tableLayoutPanel1" Height="82" Width="1154">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Canvas />
+                        </Grid>
+                        <TreeView Canvas.Left="0" Canvas.Top="88" Name="treeView1" Height="488" Width="205" TabIndex="1">
+                            <TreeViewItem Header="Monday">
+                                <TreeViewItem Header="Shop Monday 1" />
                             </TreeViewItem>
-                            <TreeViewItem Header="Node15">
-                                <TreeViewItem Background="#FFFFE0C0" Foreground="#FFC0C000" Header="Node16">
-                                    <TreeViewItem Header="Node24" />
-                                    <TreeViewItem Header="Node25" />
-                                    <TreeViewItem Header="Node26">
-                                        <TreeViewItem Header="Node29" />
-                                        <TreeViewItem Header="Node30" />
-                                    </TreeViewItem>
-                                </TreeViewItem>
-                                <TreeViewItem Header="Node17" />
-                                <TreeViewItem Header="Node18">
-                                    <TreeViewItem Header="Node20" />
-                                    <TreeViewItem Background="#FFFF0000" Foreground="#FFC0C000" Header="Node21" />
-                                    <TreeViewItem Header="Node22" />
-                                    <TreeViewItem Header="Node23">
-                                        <TreeViewItem Header="Node31" />
-                                        <TreeViewItem Header="Node32" />
-                                        <TreeViewItem Header="Node33" />
-                                    </TreeViewItem>
-                                </TreeViewItem>
-                                <TreeViewItem Header="Node19">
-                                    <TreeViewItem Header="Node27" />
-                                    <TreeViewItem Header="Node28" />
-                                </TreeViewItem>
+                            <TreeViewItem Header="Tuesday">
+                                <TreeViewItem Header="Shop Tuesday 1" />
+                                <TreeViewItem Header="Shop Tuesday 2" />
+                                <TreeViewItem Header="Shop Tuesday 3" />
                             </TreeViewItem>
+                            <TreeViewItem Header="Wednesday">
+                                <TreeViewItem Header="Shop Wednesday 2" />
+                            </TreeViewItem>
+                            <TreeViewItem Header="Thursday">
+                                <TreeViewItem Header="Node13" />
+                            </TreeViewItem>
+                            <TreeViewItem Header="Friday">
+                                <TreeViewItem Header="Node14" />
+                            </TreeViewItem>
+                            <TreeViewItem Header="Saturday" />
+                            <TreeViewItem Header="Sunday" />
                         </TreeView>
                     </Canvas>
                 </TabItem>
-                <TabItem Background="#FF696969" Name="tabPage2" Header="tabPage2">
-                    <Canvas>
-                        <Grid Canvas.Left="7" Canvas.Top="7" Name="tableLayoutPanel8" Height="214" Width="640">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*" />
-                                <RowDefinition Height="*" />
-                            </Grid.RowDefinitions>
-                            <Canvas>
-                                <Button Grid.Column="0" Grid.Row="0" Background="#FFFFA500" Canvas.Left="3" Canvas.Top="3" Name="button11" Height="101" Width="314" TabIndex="0" Content="button11" />
-                                <Button Grid.Column="1" Grid.Row="1" Background="#FF000000" Foreground="#FFC00000" Canvas.Left="323" Canvas.Top="110" Name="button12" Height="101" Width="314" TabIndex="1" Content="button12" />
-                            </Canvas>
-                        </Grid>
-                    </Canvas>
+                <TabItem Name="tabPage2" Header="Business Management">
+                    <Canvas />
                 </TabItem>
             </TabControl>
-            <Grid Canvas.Left="1043" Canvas.Top="24" Name="tableLayoutPanel13" Height="651" Width="408">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                </Grid.RowDefinitions>
-                <Canvas>
-                    <TreeView Grid.Column="0" Grid.Row="0" Canvas.Left="3" Canvas.Top="3" Name="treeView2" Height="319" Width="198" TabIndex="0">
-                        <TreeViewItem Background="#FF00C0C0" Foreground="#FF00FF00" Header="Node0" />
-                        <TreeViewItem Header="Node1">
-                            <TreeViewItem Header="Node7" />
-                            <TreeViewItem Header="Node8" />
-                            <TreeViewItem Header="Node9" />
-                            <TreeViewItem Header="Node10" />
-                            <TreeViewItem Header="Node11" />
-                        </TreeViewItem>
-                        <TreeViewItem Header="Node2" />
-                        <TreeViewItem Header="Node3" />
-                        <TreeViewItem Header="Node4">
-                            <TreeViewItem Header="Node12" />
-                            <TreeViewItem Header="Node13" />
-                            <TreeViewItem Header="Node14" />
-                        </TreeViewItem>
-                        <TreeViewItem Header="Node5" />
-                        <TreeViewItem Header="Node6" />
-                    </TreeView>
-                    <Button Grid.Column="1" Grid.Row="0" Canvas.Left="207" Canvas.Top="3" Name="button24" Height="23" Width="75" TabIndex="1" Content="button24" />
-                    <DatePicker Grid.Column="1" Grid.Row="1" Canvas.Left="207" Canvas.Top="328" Name="dateTimePicker2" Height="20" Width="198" TabIndex="3" Padding="0" />
-                    <TreeView Grid.Column="0" Grid.Row="1" Canvas.Left="3" Canvas.Top="328" Name="treeView3" Height="320" Width="198" TabIndex="4">
-                        <TreeViewItem Header="Node0" />
-                        <TreeViewItem Header="Node1" />
-                        <TreeViewItem Background="#FFC00000" Foreground="#FFFFFF00" Header="Node2" />
-                        <TreeViewItem Header="Node3" />
-                    </TreeView>
-                </Canvas>
-            </Grid>
         </Canvas>
     </Grid>
 </Window>

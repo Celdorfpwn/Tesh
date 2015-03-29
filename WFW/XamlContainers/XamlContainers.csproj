@@ -69,6 +69,7 @@
     <Compile Include="InternalContainerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XamlContainer.cs" />
+    <Compile Include="XamlDataGrid.cs" />
     <Compile Include="XamlGrid.cs" />
     <Compile Include="XamlTabControl.cs" />
     <Compile Include="XamlTabItem.cs" />
