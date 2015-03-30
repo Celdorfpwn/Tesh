@@ -56,12 +56,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Mocker.cs" />
     <Compile Include="XamlButtonTest.cs" />
+    <Compile Include="XamlCheckBoxColumnTest.cs" />
     <Compile Include="XamlCheckBoxTest.cs" />
     <Compile Include="XamlComboBoxTest.cs" />
     <Compile Include="XamlDatePickerTest.cs" />
     <Compile Include="XamlLabelTest.cs" />
     <Compile Include="XamlRadioButtonTest.cs" />
+    <Compile Include="XamlTextBoxColumnTest.cs" />
     <Compile Include="XamlTextBoxTest.cs" />
+    <Compile Include="XamlTreeViewTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamlControls\XamlControls.csproj">

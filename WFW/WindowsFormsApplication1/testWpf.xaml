@@ -15,13 +15,13 @@
                 <Canvas>
                   <DataGrid Canvas.Left="7" Canvas.Top="118" Name="dataGridView1" Height="179" Width="921">
                     <DataGrid.Columns>
-                      <DataGridTextColumn Header="Part #" />
-                      <DataGridTextColumn Header="ListPrice" />
-                      <DataGridTextColumn Header="LineType" />
-                      <DataGridTextColumn Header="Discount" />
-                      <DataGridCheckBoxColumn Header="TaxExempt" />
-                      <DataGridCheckBoxColumn Header="Reorder" />
-                      <DataGridTextColumn Header="Notes" />
+                      <DataGridTextColumn Header="Part #" Width="*" />
+                      <DataGridTextColumn Header="ListPrice" Width="*" />
+                      <DataGridTextColumn Header="LineType" Width="*" />
+                      <DataGridTextColumn Header="Discount" Width="*" />
+                      <DataGridCheckBoxColumn Header="TaxExempt" Width="*" />
+                      <DataGridCheckBoxColumn Header="Reorder" Width="*" />
+                      <DataGridTextColumn Header="Notes" Width="*" />
                     </DataGrid.Columns>
                   </DataGrid>
                 </Canvas>

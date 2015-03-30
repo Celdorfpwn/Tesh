@@ -80,7 +80,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Files\003\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Files\002\Expected002.txt">
       <Generator>MSBuild:Compile</Generator>

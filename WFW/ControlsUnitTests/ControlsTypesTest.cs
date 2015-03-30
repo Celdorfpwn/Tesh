@@ -12,7 +12,7 @@ namespace ControlsUnitTests
         public void CanGetTypesToCount()
         {
 
-            var expected = 7;
+            var expected = 10;
 
             var actual = ControlsTypes.AssemblyTypes.Count();
 
@@ -26,7 +26,8 @@ namespace ControlsUnitTests
             {
                 typeof(XamlButton),typeof(XamlCheckBox),typeof(XamlComboBox),
                 typeof(XamlDatePicker),typeof(XamlLabel),typeof(XamlRadioButton),
-                typeof(XamlTextBox)
+                typeof(XamlTextBox),typeof(XamlTreeView),typeof(XamlTextBoxColumn),
+                typeof(XamlCheckBoxColumn)
             };
 
             var actual = ControlsTypes.AssemblyTypes;
