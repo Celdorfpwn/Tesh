@@ -218,49 +218,49 @@
               </TabItem>
             </TabControl>
             <TreeView Canvas.Left="572" Canvas.Top="7" Name="treeView1" Height="369" Width="393" TabIndex="3">
-              <TreeViewItem Background="#FFFF0000" Foreground="#FFFFFFFF" Name="Root1" Header="Rtoo1">
-                <TreeViewItem Background="#FF0000C0" Foreground="#FFFF8080" Name="Node1" Header="Node1" />
-                <TreeViewItem Background="#FFC0FFC0" Name="Node2" Header="Node2">
-                  <TreeViewItem Foreground="#FF80FF80" Name="Node5" Header="Node5" />
-                  <TreeViewItem Name="Node6" Header="Node6">
-                    <TreeViewItem Name="Node8" Header="Node8" />
-                    <TreeViewItem Name="Node9" Header="Node9" />
-                    <TreeViewItem Background="#FFFFC080" Foreground="#FF000040" Name="Node10" Header="Node10" />
-                    <TreeViewItem Name="Node11" Header="Node11" />
+              <TreeViewItem Background="#FFFF0000" Foreground="#FFFFFFFF" Header="Rtoo1">
+                <TreeViewItem Background="#FF0000C0" Foreground="#FFFF8080" Header="Node1" />
+                <TreeViewItem Background="#FFC0FFC0" Header="Node2">
+                  <TreeViewItem Foreground="#FF80FF80" Header="Node5" />
+                  <TreeViewItem Header="Node6">
+                    <TreeViewItem Header="Node8" />
+                    <TreeViewItem Header="Node9" />
+                    <TreeViewItem Background="#FFFFC080" Foreground="#FF000040" Header="Node10" />
+                    <TreeViewItem Header="Node11" />
                   </TreeViewItem>
-                  <TreeViewItem Name="Node7" Header="Node7" />
+                  <TreeViewItem Header="Node7" />
                 </TreeViewItem>
-                <TreeViewItem Name="Node3" Header="Node3">
-                  <TreeViewItem Name="Node12" Header="Node12" />
-                  <TreeViewItem Name="Node13" Header="Node13">
-                    <TreeViewItem Name="Node14" Header="Node14" />
+                <TreeViewItem Header="Node3">
+                  <TreeViewItem Header="Node12" />
+                  <TreeViewItem Header="Node13">
+                    <TreeViewItem Header="Node14" />
                   </TreeViewItem>
                 </TreeViewItem>
-                <TreeViewItem Name="Node4" Header="Node4" />
+                <TreeViewItem Header="Node4" />
               </TreeViewItem>
-              <TreeViewItem Name="Node15" Header="Node15">
-                <TreeViewItem Name="Node16" Header="Node16">
-                  <TreeViewItem Name="Node24" Header="Node24" />
-                  <TreeViewItem Name="Node25" Header="Node25" />
-                  <TreeViewItem Name="Node26" Header="Node26">
-                    <TreeViewItem Name="Node29" Header="Node29" />
-                    <TreeViewItem Name="Node30" Header="Node30" />
+              <TreeViewItem Header="Node15">
+                <TreeViewItem Header="Node16">
+                  <TreeViewItem Header="Node24" />
+                  <TreeViewItem Header="Node25" />
+                  <TreeViewItem Header="Node26">
+                    <TreeViewItem Header="Node29" />
+                    <TreeViewItem Header="Node30" />
                   </TreeViewItem>
                 </TreeViewItem>
-                <TreeViewItem Name="Node17" Header="Node17" />
-                <TreeViewItem Name="Node18" Header="Node18">
-                  <TreeViewItem Name="Node20" Header="Node20" />
-                  <TreeViewItem Background="#FFFF0000" Foreground="#FFC0C000" Name="Node21" Header="Node21" />
-                  <TreeViewItem Name="Node22" Header="Node22" />
-                  <TreeViewItem Name="Node23" Header="Node23">
-                    <TreeViewItem Name="Node31" Header="Node31" />
-                    <TreeViewItem Name="Node32" Header="Node32" />
-                    <TreeViewItem Name="Node33" Header="Node33" />
+                <TreeViewItem Header="Node17" />
+                <TreeViewItem Header="Node18">
+                  <TreeViewItem Header="Node20" />
+                  <TreeViewItem Background="#FFFF0000" Foreground="#FFC0C000" Header="Node21" />
+                  <TreeViewItem Header="Node22" />
+                  <TreeViewItem Header="Node23">
+                    <TreeViewItem Header="Node31" />
+                    <TreeViewItem Header="Node32" />
+                    <TreeViewItem Header="Node33" />
                   </TreeViewItem>
                 </TreeViewItem>
-                <TreeViewItem Name="Node19" Header="Node19">
-                  <TreeViewItem Name="Node27" Header="Node27" />
-                  <TreeViewItem Name="Node28" Header="Node28" />
+                <TreeViewItem Header="Node19">
+                  <TreeViewItem Header="Node27" />
+                  <TreeViewItem Header="Node28" />
                 </TreeViewItem>
               </TreeViewItem>
             </TreeView>

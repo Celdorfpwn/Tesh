@@ -61,6 +61,7 @@
     <Compile Include="XamlForegroundTest.cs" />
     <Compile Include="XamlGridColumnTest.cs" />
     <Compile Include="XamlGridRowTest.cs" />
+    <Compile Include="XamlHeaderTest.cs" />
     <Compile Include="XamlHeightTest.cs" />
     <Compile Include="XamlNameTest.cs" />
     <Compile Include="XamlTabIndexTest.cs" />
