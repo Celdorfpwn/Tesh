@@ -67,11 +67,27 @@ namespace WpfParser
 
             var controlsLines = File.ReadAllLines(WinForm).ToList();
 
+            ProcessLines(controlsLines);
+
+
             var controls = XamlContainerFactory.XamlContainerFactory.GetContainers(controlsLines, this, CodeSyntax.Fields).ToList();
 
             foreach (XmlNode control in controls)
             {
                 canvas.AppendChild(control);
+            }
+        }
+
+        private void ProcessLines(List<string> controlsLines)
+        {
+            var specialLine = controlsLines.FirstOrDefault(line => line.Trim().StartsWith("|"));
+
+            while(specialLine!=null)
+            {
+                var index = controlsLines.IndexOf(specialLine);
+                controlsLines[index - 1] += controlsLines[index];
+                controlsLines.RemoveAt(index);
+                specialLine = controlsLines.FirstOrDefault(line => line.Trim().StartsWith("|"));
             }
         }
 

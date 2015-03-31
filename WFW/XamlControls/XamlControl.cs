@@ -50,3 +50,38 @@ namespace XamlControls
         }
     }
 }
+            //var lines = new List<string>();
+            //var remove = controlName + ".";
+            ////var controlIdentifier = "this." + controlName;
+
+            ////controlLines.Where(line => line.Split('.',')',',').Contains(controlName))
+            ////    .ToList()
+            ////    .ForEach(line => lines.Add(line.Replace(remove,string.Empty)));
+
+            //var listLines = controlLines.ToList();
+            
+
+            //var first = controlLines.First(line => line.Contains("// " + controlName));
+
+            //var startIndex = listLines.IndexOf(first) + 2;
+            //var addIndex = 0;
+            //while(!listLines[startIndex].Trim().Equals("//"))
+            //{
+            //    if(listLines[startIndex].Contains("this."+controlName))
+            //    {
+            //        lines.Add(listLines[startIndex]);
+            //        addIndex++;
+            //    }
+            //    else
+            //    {
+            //        lines[addIndex-1] += listLines[startIndex];
+            //    }
+
+            //    startIndex++;
+            //}
+
+            //var processedLines = new List<string>();
+
+            //lines.ForEach(line => processedLines.Add(line.Replace(remove, string.Empty)));
+
+            //return processedLines;

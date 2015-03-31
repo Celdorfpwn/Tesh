@@ -7,14 +7,14 @@ using System.Xml;
 
 namespace Attributes
 {
-    public class XamlFontStyle : XamlFont
+    public class XamlFontWeight : XamlFont
     {
         protected override string Wpf
         {
-            get { return "FontStyle"; }
+            get { return "FontWeight"; }
         }
 
-        public XamlFontStyle(string line,XmlDocument xmlDocument)
+        public XamlFontWeight(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
 
@@ -24,17 +24,12 @@ namespace Attributes
         {
             var value = "this.";
 
-            if (line.Contains("System.Drawing.FontStyle.Regular"))
+            if (line.Contains("System.Drawing.FontStyle.Bold"))
             {
-                value = "Normal";
-            }
-            else if (line.Contains("System.Drawing.FontStyle.Italic"))
-            {
-                value = "Italic";
+                value = "Bold";
             }
 
             return value;
         }
-
     }
 }

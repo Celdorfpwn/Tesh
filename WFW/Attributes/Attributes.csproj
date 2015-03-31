@@ -70,7 +70,9 @@
     <Compile Include="XamlFont.cs" />
     <Compile Include="XamlFontFamily.cs" />
     <Compile Include="XamlFontSize.cs" />
+    <Compile Include="XamlFontStretch.cs" />
     <Compile Include="XamlFontStyle.cs" />
+    <Compile Include="XamlFontWeight.cs" />
     <Compile Include="XamlForeground.cs" />
     <Compile Include="XamlGridColumn.cs" />
     <Compile Include="XamlGridRow.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="XamlHeight.cs" />
     <Compile Include="XamlName.cs" />
     <Compile Include="XamlTabIndex.cs" />
+    <Compile Include="XamlTextDecorations.cs" />
     <Compile Include="XamlWidth.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

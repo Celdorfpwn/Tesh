@@ -28,27 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Shop Monday 1");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Monday", new System.Windows.Forms.TreeNode[] {
-            treeNode15});
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Shop Tuesday 1");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Shop Tuesday 2");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Shop Tuesday 3");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Tuesday", new System.Windows.Forms.TreeNode[] {
-            treeNode17,
-            treeNode18,
-            treeNode19});
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Shop Wednesday 2");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Wednesday", new System.Windows.Forms.TreeNode[] {
-            treeNode21});
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Node13");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Thursday", new System.Windows.Forms.TreeNode[] {
-            treeNode23});
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Node14");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Friday", new System.Windows.Forms.TreeNode[] {
-            treeNode25});
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Saturday");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Sunday");
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Shop Monday 1");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Monday", new System.Windows.Forms.TreeNode[] {
+            treeNode1});
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Shop Tuesday 1");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Shop Tuesday 2");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Shop Tuesday 3");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Tuesday", new System.Windows.Forms.TreeNode[] {
+            treeNode3,
+            treeNode4,
+            treeNode5});
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Shop Wednesday 2");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Wednesday", new System.Windows.Forms.TreeNode[] {
+            treeNode7});
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Node13");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Thursday", new System.Windows.Forms.TreeNode[] {
+            treeNode9});
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Node14");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Friday", new System.Windows.Forms.TreeNode[] {
+            treeNode11});
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Saturday");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Sunday");
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabControl2 = new System.Windows.Forms.TabControl();
@@ -67,7 +67,6 @@
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -79,6 +78,7 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -228,42 +228,42 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(0, 88);
             this.treeView1.Name = "treeView1";
-            treeNode15.Name = "Node7";
-            treeNode15.Text = "Shop Monday 1";
-            treeNode16.Name = "Monday";
-            treeNode16.Text = "Monday";
-            treeNode17.Name = "Node9";
-            treeNode17.Text = "Shop Tuesday 1";
-            treeNode18.Name = "Node10";
-            treeNode18.Text = "Shop Tuesday 2";
-            treeNode19.Name = "Node11";
-            treeNode19.Text = "Shop Tuesday 3";
-            treeNode20.Name = "Node1";
-            treeNode20.Text = "Tuesday";
-            treeNode21.Name = "Node12";
-            treeNode21.Text = "Shop Wednesday 2";
-            treeNode22.Name = "Node2";
-            treeNode22.Text = "Wednesday";
-            treeNode23.Name = "Node13";
-            treeNode23.Text = "Node13";
-            treeNode24.Name = "Node3";
-            treeNode24.Text = "Thursday";
-            treeNode25.Name = "Node14";
-            treeNode25.Text = "Node14";
-            treeNode26.Name = "Node4";
-            treeNode26.Text = "Friday";
-            treeNode27.Name = "Node5";
-            treeNode27.Text = "Saturday";
-            treeNode28.Name = "Node6";
-            treeNode28.Text = "Sunday";
+            treeNode1.Name = "Node7";
+            treeNode1.Text = "Shop Monday 1";
+            treeNode2.Name = "Monday";
+            treeNode2.Text = "Monday";
+            treeNode3.Name = "Node9";
+            treeNode3.Text = "Shop Tuesday 1";
+            treeNode4.Name = "Node10";
+            treeNode4.Text = "Shop Tuesday 2";
+            treeNode5.Name = "Node11";
+            treeNode5.Text = "Shop Tuesday 3";
+            treeNode6.Name = "Node1";
+            treeNode6.Text = "Tuesday";
+            treeNode7.Name = "Node12";
+            treeNode7.Text = "Shop Wednesday 2";
+            treeNode8.Name = "Node2";
+            treeNode8.Text = "Wednesday";
+            treeNode9.Name = "Node13";
+            treeNode9.Text = "Node13";
+            treeNode10.Name = "Node3";
+            treeNode10.Text = "Thursday";
+            treeNode11.Name = "Node14";
+            treeNode11.Text = "Node14";
+            treeNode12.Name = "Node4";
+            treeNode12.Text = "Friday";
+            treeNode13.Name = "Node5";
+            treeNode13.Text = "Saturday";
+            treeNode14.Name = "Node6";
+            treeNode14.Text = "Sunday";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode16,
-            treeNode20,
-            treeNode22,
-            treeNode24,
-            treeNode26,
-            treeNode27,
-            treeNode28});
+            treeNode2,
+            treeNode6,
+            treeNode8,
+            treeNode10,
+            treeNode12,
+            treeNode13,
+            treeNode14});
             this.treeView1.Size = new System.Drawing.Size(205, 488);
             this.treeView1.TabIndex = 1;
             // 
@@ -280,16 +280,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 82F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1154, 82);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1154, 576);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Business Management";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel2
             // 
@@ -319,7 +309,8 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Algerian", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Algerian", 12F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline) 
+                | System.Drawing.FontStyle.Strikeout))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(3, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(223, 29);
@@ -337,7 +328,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Font = new System.Drawing.Font("Snap ITC", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Font = new System.Drawing.Font("Snap ITC", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(461, 3);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(223, 28);
@@ -373,7 +364,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Font = new System.Drawing.Font("Gill Sans Ultra Bold Condensed", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox7.Font = new System.Drawing.Font("Gill Sans Ultra Bold", 8.25F, System.Drawing.FontStyle.Strikeout, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.textBox7.Location = new System.Drawing.Point(232, 41);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(223, 21);
@@ -391,6 +382,7 @@
             // 
             // textBox9
             // 
+            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.textBox9.Location = new System.Drawing.Point(690, 41);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(223, 20);
@@ -405,6 +397,16 @@
             this.textBox10.Size = new System.Drawing.Size(225, 20);
             this.textBox10.TabIndex = 9;
             this.textBox10.Text = "RockWell";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1154, 576);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Business Management";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // Chrome
             // 
