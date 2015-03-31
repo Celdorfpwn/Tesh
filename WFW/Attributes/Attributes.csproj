@@ -67,6 +67,10 @@
     <Compile Include="XamlColorAttribute.cs" />
     <Compile Include="XamlContent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XamlFont.cs" />
+    <Compile Include="XamlFontFamily.cs" />
+    <Compile Include="XamlFontSize.cs" />
+    <Compile Include="XamlFontStyle.cs" />
     <Compile Include="XamlForeground.cs" />
     <Compile Include="XamlGridColumn.cs" />
     <Compile Include="XamlGridRow.cs" />

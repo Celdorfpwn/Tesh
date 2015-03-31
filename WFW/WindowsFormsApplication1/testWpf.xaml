@@ -39,7 +39,33 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
               </Grid.RowDefinitions>
-              <Canvas />
+              <Canvas>
+                <Grid Canvas.Left="3" Canvas.Top="3" Name="tableLayoutPanel2" Height="76" Width="1148">
+                  <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                  </Grid.ColumnDefinitions>
+                  <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                  </Grid.RowDefinitions>
+                  <Canvas>
+                    <TextBox Grid.Column="0" Grid.Row="0" FontFamily="Algerian" FontSize="16" Canvas.Left="3" Canvas.Top="3" Name="textBox1" Height="29" Width="223" TabIndex="0" Text="This is algerian bold" />
+                    <TextBox Grid.Column="1" Grid.Row="0" FontFamily="Consolas" FontSize="16" Canvas.Left="232" Canvas.Top="3" Name="textBox2" Height="26" Width="223" TabIndex="1" Text="Consolas Bold Italic" />
+                    <TextBox Grid.Column="2" Grid.Row="0" FontFamily="Snap ITC" FontSize="16" Canvas.Left="461" Canvas.Top="3" Name="textBox3" Height="28" Width="223" TabIndex="2" Text="Sanp-ITC italic" />
+                    <TextBox Grid.Column="3" Grid.Row="0" FontFamily="Modern No. 20" FontSize="11" Canvas.Left="690" Canvas.Top="3" Name="textBox4" Height="19" Width="223" TabIndex="3" Text="Modern No. 20 regular" />
+                    <TextBox Grid.Column="4" Grid.Row="0" FontFamily="Monotype Corsiva" FontSize="19" Canvas.Left="919" Canvas.Top="3" Name="textBox5" Height="29" Width="226" TabIndex="4" Text="Monotype Corsiva" />
+                    <TextBox Grid.Column="0" Grid.Row="1" FontFamily="Mistral" FontSize="16" Canvas.Left="3" Canvas.Top="41" Name="textBox6" Height="27" Width="223" TabIndex="5" Text="Mistral" />
+                    <TextBox Grid.Column="1" Grid.Row="1" FontFamily="Gill Sans Ultra Bold Condensed" FontSize="11" Canvas.Left="232" Canvas.Top="41" Name="textBox7" Height="21" Width="223" TabIndex="6" Text="Gill Sans Ultra Bold" />
+                    <TextBox Grid.Column="2" Grid.Row="1" FontFamily="Papyrus" FontSize="16" Canvas.Left="461" Canvas.Top="41" Name="textBox8" Height="33" Width="223" TabIndex="7" Text="Papyrus" />
+                    <TextBox Grid.Column="3" Grid.Row="1" Canvas.Left="690" Canvas.Top="41" Name="textBox9" Height="20" Width="223" TabIndex="8" Text="Microsoft Sans Serif" />
+                    <TextBox Grid.Column="4" Grid.Row="1" FontFamily="Rockwell" FontSize="11" Canvas.Left="919" Canvas.Top="41" Name="textBox10" Height="20" Width="225" TabIndex="9" Text="RockWell" />
+                  </Canvas>
+                </Grid>
+              </Canvas>
             </Grid>
             <TreeView Canvas.Left="0" Canvas.Top="88" Name="treeView1" Height="488" Width="205" TabIndex="1">
               <TreeViewItem Header="Monday">

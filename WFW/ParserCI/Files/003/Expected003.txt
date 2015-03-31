@@ -1,0 +1,73 @@
+<Window x:Class="WindowsFormsApplication1.Chrome" Width="1177" Height="641" Title="Chrome" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <Grid>
+    <Canvas>
+      <TabControl Canvas.Left="-2" Canvas.Top="0" Name="tabControl1" Height="602" Width="1162">
+        <TabItem Name="tabPage1" Header="Point of sale">
+          <Canvas>
+            <TabControl Canvas.Left="212" Canvas.Top="88" Name="tabControl2" Height="488" Width="939">
+              <TabItem Name="tabPage3" Header="Summary">
+                <Canvas />
+              </TabItem>
+              <TabItem Name="tabPage4" Header="Transaction History">
+                <Canvas />
+              </TabItem>
+              <TabItem Name="tabPage5" Header="Order #23432233432">
+                <Canvas>
+                  <DataGrid Canvas.Left="7" Canvas.Top="118" Name="dataGridView1" Height="179" Width="921">
+                    <DataGrid.Columns>
+                      <DataGridTextColumn Header="Part #" Width="*" />
+                      <DataGridTextColumn Header="ListPrice" Width="*" />
+                      <DataGridTextColumn Header="LineType" Width="*" />
+                      <DataGridTextColumn Header="Discount" Width="*" />
+                      <DataGridCheckBoxColumn Header="TaxExempt" Width="*" />
+                      <DataGridCheckBoxColumn Header="Reorder" Width="*" />
+                      <DataGridTextColumn Header="Notes" Width="*" />
+                    </DataGrid.Columns>
+                  </DataGrid>
+                </Canvas>
+              </TabItem>
+              <TabItem Name="tabPage6" Header="Order #223333445667">
+                <Canvas />
+              </TabItem>
+            </TabControl>
+            <Grid Canvas.Left="0" Canvas.Top="0" Name="tableLayoutPanel1" Height="82" Width="1154">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+              </Grid.ColumnDefinitions>
+              <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+              </Grid.RowDefinitions>
+              <Canvas />
+            </Grid>
+            <TreeView Canvas.Left="0" Canvas.Top="88" Name="treeView1" Height="488" Width="205" TabIndex="1">
+              <TreeViewItem Header="Monday">
+                <TreeViewItem Header="Shop Monday 1" />
+              </TreeViewItem>
+              <TreeViewItem Header="Tuesday">
+                <TreeViewItem Header="Shop Tuesday 1" />
+                <TreeViewItem Header="Shop Tuesday 2" />
+                <TreeViewItem Header="Shop Tuesday 3" />
+              </TreeViewItem>
+              <TreeViewItem Header="Wednesday">
+                <TreeViewItem Header="Shop Wednesday 2" />
+              </TreeViewItem>
+              <TreeViewItem Header="Thursday">
+                <TreeViewItem Header="Node13" />
+              </TreeViewItem>
+              <TreeViewItem Header="Friday">
+                <TreeViewItem Header="Node14" />
+              </TreeViewItem>
+              <TreeViewItem Header="Saturday" />
+              <TreeViewItem Header="Sunday" />
+            </TreeView>
+          </Canvas>
+        </TabItem>
+        <TabItem Name="tabPage2" Header="Business Management">
+          <Canvas />
+        </TabItem>
+      </TabControl>
+    </Canvas>
+  </Grid>
+</Window>
