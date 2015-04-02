@@ -58,6 +58,10 @@
     <Compile Include="XamlCanvasTopTest.cs" />
     <Compile Include="XamlClickTest.cs" />
     <Compile Include="XamlContentTest.cs" />
+    <Compile Include="XamlFontFamilyTest.cs" />
+    <Compile Include="XamlFontSizeTest.cs" />
+    <Compile Include="XamlFontStyleTest.cs" />
+    <Compile Include="XamlFontWeightTest.cs" />
     <Compile Include="XamlForegroundTest.cs" />
     <Compile Include="XamlGridColumnTest.cs" />
     <Compile Include="XamlGridRowTest.cs" />
@@ -65,6 +69,7 @@
     <Compile Include="XamlHeightTest.cs" />
     <Compile Include="XamlNameTest.cs" />
     <Compile Include="XamlTabIndexTest.cs" />
+    <Compile Include="XamlTextDecorationsTest.cs" />
     <Compile Include="XamlWidthTest.cs" />
   </ItemGroup>
   <ItemGroup>

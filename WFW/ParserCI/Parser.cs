@@ -39,6 +39,16 @@ namespace ParserCI
             ParserCI(actualPath, expectedPath, contentPath);
         }
 
+        [TestMethod]
+        public void Win2Wpf_CI004()
+        {
+            var actualPath = "../Debug/Files/004/actual004.txt";
+            var expectedPath = "../Debug/Files/004/expected004.txt";
+            var contentPath = "../Debug/Files/004/content004.txt";
+
+            ParserCI(actualPath, expectedPath, contentPath);
+        }
+
 
         private void ParserCI(string actualPath, string expectedPath, string contentPath)
         {

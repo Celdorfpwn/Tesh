@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="403f3a8c-f2de-4715-b35f-7637323fe2da" name="Apostol@APOSTOL-PC 2015-04-02 03:38:19" runUser="Apostol-PC\Apostol" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-04-02T03:38:19.8840358+03:00" queuing="2015-04-02T03:38:19.8870360+03:00" start="2015-04-02T03:38:19.8990367+03:00" finish="2015-04-02T03:38:20.0470451+03:00" />
+  <TestSettings name="default" id="7534cc4d-4acd-4bfc-be49-da00b632dd36">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="Apostol_APOSTOL-PC 2015-04-02 03_38_19" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="46771e27-1adf-467c-83f1-e897b74c37e8" testId="2a9e97f7-2fac-1fba-89ee-793092cf0b27" testName="Win2Wpf_CI001" computerName="APOSTOL-PC" duration="00:00:01.0697229" startTime="2015-04-02T03:38:17.6829099+03:00" endTime="2015-04-02T03:38:18.8419762+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="46771e27-1adf-467c-83f1-e897b74c37e8" />
+    <UnitTestResult executionId="2c9ec4d0-2aaf-42ad-be02-dec84a86f04d" testId="073d582b-e2f3-b372-53fd-6436597d027a" testName="Win2Wpf_CI002" computerName="APOSTOL-PC" duration="00:00:00.6630601" startTime="2015-04-02T03:38:18.8559770+03:00" endTime="2015-04-02T03:38:19.5200150+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c9ec4d0-2aaf-42ad-be02-dec84a86f04d" />
+    <UnitTestResult executionId="1248b044-0772-4282-9b66-72683c3f8d59" testId="59690303-8808-d851-18b6-ce97070e7ea1" testName="Win2Wpf_CI003" computerName="APOSTOL-PC" duration="00:00:00.0965569" startTime="2015-04-02T03:38:19.5210150+03:00" endTime="2015-04-02T03:38:19.6170205+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1248b044-0772-4282-9b66-72683c3f8d59" />
+    <UnitTestResult executionId="298b69c6-1f04-4dc5-a1ec-fb0f8630466e" testId="08958110-52b9-81ea-0d4a-7e1c4bd847be" testName="Win2Wpf_CI004" computerName="APOSTOL-PC" duration="00:00:00.1513753" startTime="2015-04-02T03:38:19.6180206+03:00" endTime="2015-04-02T03:38:19.7690292+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="298b69c6-1f04-4dc5-a1ec-fb0f8630466e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Win2Wpf_CI001" storage="d:\realpojects\projects\wfw\parserci\bin\debug\parserci.dll" id="2a9e97f7-2fac-1fba-89ee-793092cf0b27">
+      <Execution id="46771e27-1adf-467c-83f1-e897b74c37e8" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ParserCI\bin\Debug\ParserCI.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ParserCI.Parser" name="Win2Wpf_CI001" />
+    </UnitTest>
+    <UnitTest name="Win2Wpf_CI002" storage="d:\realpojects\projects\wfw\parserci\bin\debug\parserci.dll" id="073d582b-e2f3-b372-53fd-6436597d027a">
+      <Execution id="2c9ec4d0-2aaf-42ad-be02-dec84a86f04d" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ParserCI\bin\Debug\ParserCI.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ParserCI.Parser" name="Win2Wpf_CI002" />
+    </UnitTest>
+    <UnitTest name="Win2Wpf_CI003" storage="d:\realpojects\projects\wfw\parserci\bin\debug\parserci.dll" id="59690303-8808-d851-18b6-ce97070e7ea1">
+      <Execution id="1248b044-0772-4282-9b66-72683c3f8d59" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ParserCI\bin\Debug\ParserCI.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ParserCI.Parser" name="Win2Wpf_CI003" />
+    </UnitTest>
+    <UnitTest name="Win2Wpf_CI004" storage="d:\realpojects\projects\wfw\parserci\bin\debug\parserci.dll" id="08958110-52b9-81ea-0d4a-7e1c4bd847be">
+      <Execution id="298b69c6-1f04-4dc5-a1ec-fb0f8630466e" />
+      <TestMethod codeBase="D:\RealPojects\Projects\WFW\ParserCI\bin\Debug\ParserCI.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="ParserCI.Parser" name="Win2Wpf_CI004" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="2a9e97f7-2fac-1fba-89ee-793092cf0b27" executionId="46771e27-1adf-467c-83f1-e897b74c37e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="073d582b-e2f3-b372-53fd-6436597d027a" executionId="2c9ec4d0-2aaf-42ad-be02-dec84a86f04d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59690303-8808-d851-18b6-ce97070e7ea1" executionId="1248b044-0772-4282-9b66-72683c3f8d59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="08958110-52b9-81ea-0d4a-7e1c4bd847be" executionId="298b69c6-1f04-4dc5-a1ec-fb0f8630466e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -13,7 +13,7 @@ namespace AttributesUnitTests
         public void CanGetTypesToCount()
         {
 
-            var expected = 13;
+            var expected = 18;
 
             var actual = AttributesTypes.AssemblyTypes.Count();
 
@@ -29,16 +29,22 @@ namespace AttributesUnitTests
                 typeof(XamlContent),typeof(XamlHeight),typeof(XamlName),
                 typeof(XamlTabIndex),typeof(XamlWidth),typeof(XamlGridColumn),
                 typeof(XamlGridRow),typeof(XamlForeground),typeof(XamlBackground),
-                typeof(XamlHeader)
+                typeof(XamlHeader),typeof(XamlFontSize),typeof(XamlFontFamily),
+                typeof(XamlFontStyle),typeof(XamlFontWeight),typeof(XamlTextDecorations)
             };
 
             var actual = AttributesTypes.AssemblyTypes;
 
-            Assert.AreEqual(expected.Count, actual.Count());
-
             foreach(var type in actual)
             {
-                Assert.IsTrue(expected.Contains(type));
+                try
+                {
+                    Assert.IsTrue(expected.Contains(type));
+                }
+                catch(Exception)
+                {
+                    Assert.Fail("Xaml Attribute " + type.Name + " not found in expected list!");
+                }
             }
         }
     }

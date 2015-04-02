@@ -55,27 +55,30 @@ namespace WpfParser
         private  void AddClientSizeAttributes(List<XmlAttribute> attributes, string line)
         {
             var sizes = GetSizes(line);
+            if (sizes.Count() == 2)
+            {
+                var width = Document.CreateAttribute(Width);
+                width.Value = (Convert.ToInt32(sizes[0].Trim()) + 16).ToString();
+                var height = Document.CreateAttribute(Height);
+                height.Value = (Convert.ToInt32(sizes[1].Trim()) + 38).ToString();
 
-            var width = Document.CreateAttribute(Width);
-            width.Value = (Convert.ToInt32(sizes[0].Trim())+16).ToString();
-            var height = Document.CreateAttribute(Height);
-            height.Value = (Convert.ToInt32(sizes[1].Trim())+38).ToString();
-
-            attributes.Add(width);
-            attributes.Add(height);
+                attributes.Add(width);
+                attributes.Add(height);
+            }
 
         }
 
         private  string[] GetSizes(string line)
         {
+            var value = new string[1];
             if (line != null)
             {
-                return line.Trim()
+                value = line.Trim()
                     .Replace("this.ClientSize = new System.Drawing.Size(", string.Empty)
                     .Replace(");", string.Empty)
                     .Split(',');
             }
-            return null;
+            return value;
         }
 
 

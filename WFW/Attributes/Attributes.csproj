@@ -70,7 +70,6 @@
     <Compile Include="XamlFont.cs" />
     <Compile Include="XamlFontFamily.cs" />
     <Compile Include="XamlFontSize.cs" />
-    <Compile Include="XamlFontStretch.cs" />
     <Compile Include="XamlFontStyle.cs" />
     <Compile Include="XamlFontWeight.cs" />
     <Compile Include="XamlForeground.cs" />
