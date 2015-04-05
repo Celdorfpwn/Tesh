@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,7 +41,7 @@ namespace WFW.UI
             if(CheckoutPaths())
             {
                 Wpf.Win2Wpf(DesignerPath,XamlFile);
-                MessageBox.Show("Done");
+                WpfText.Text = File.ReadAllText(XamlFile);
             }
         }
 
@@ -62,6 +63,7 @@ namespace WFW.UI
             {
                 sender.To<Button>().Content = dlg.FileName;
                 DesignerPath = dlg.FileName;
+                DesignerText.Text = File.ReadAllText(DesignerPath);
             }
         }
 
