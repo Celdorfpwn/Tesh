@@ -17,15 +17,22 @@ namespace Attributes
             }
         }
 
+        protected override List<string> ClearLineToGetValue
+        {
+            get
+            {
+                return new List<string>
+                {
+                    "this.Click += new System.EventHandler(this.",
+                    "\"",
+                    ");"
+                };
+            }
+        }
+
         public XamlClick(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            var value = line.Trim().Replace("this.Click += new System.EventHandler(this.", String.Empty)
-                .Replace("\"", String.Empty)
-                .Replace(");", String.Empty)
-                .Trim();
-
-            Validate(value, xmlDocument);
         }
  
         

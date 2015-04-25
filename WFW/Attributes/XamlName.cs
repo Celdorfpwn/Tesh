@@ -15,17 +15,24 @@ namespace Attributes
             {
                 return "Name";
             }
-        } 
+        }
+
+        protected override List<string> ClearLineToGetValue
+        {
+            get
+            {
+                return new List<string>
+                {
+                    "this.Name = ",
+                    "\"",
+                    ";"
+                };
+            }
+        }
 
         public XamlName(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            var value = line.Trim().Replace("this.Name = ", String.Empty)
-                .Replace("\"", String.Empty)
-                .Replace(";", String.Empty)
-                .Trim();
-
-            Validate(value, xmlDocument);
         }
     }
 }

@@ -15,7 +15,19 @@ namespace Attributes
             {
                 return "TabIndex";
             }
-        } 
+        }
+
+        protected override List<string> ClearLineToGetValue
+        {
+            get
+            {
+                return new List<string>
+                {
+                    "this.TabIndex = ",
+                    ";"
+                };
+            }
+        }
 
         public XamlTabIndex(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)

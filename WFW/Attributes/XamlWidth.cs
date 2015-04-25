@@ -15,20 +15,31 @@ namespace Attributes
             {
                 return "Width";
             }
-        } 
+        }
+
+        protected override List<string> ClearLineToGetValue
+        {
+            get
+            {
+                return new List<string>
+                {
+                    "this.Size = new System.Drawing.Size(",
+                    ");"
+                };
+            }
+        }
+
+        protected override string GetValue(string line)
+        {
+            var values = base.GetValue(line).Split(',');
+            return values.Length > 0
+                ? values[0].Trim()
+                : line;
+        }
 
         public XamlWidth(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            var value = line.Trim()
-                    .Replace("this.Size = new System.Drawing.Size(", string.Empty)
-                    .Replace(");", string.Empty)
-                    .Split(',');
-
-            if (value.Length > 0)
-            {
-                Validate(value[0], xmlDocument);
-            }
         }
     }
 }

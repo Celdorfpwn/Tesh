@@ -15,18 +15,30 @@ namespace Attributes
             {
                 return "Canvas.Left";
             }
-        } 
+        }
+
+        protected override List<string> ClearLineToGetValue
+        {
+            get
+            {
+                return new List<string>
+                {
+                    "this.Location = new System.Drawing.Point(",
+                    ");"
+                };
+            }
+        }
+
+        protected override string GetValue(string line)
+        {
+            var values = base.GetValue(line).Split(',');
+
+            return values.Length > 0 ? values[0] : line;
+        }
 
         public XamlCanvasLeft(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            var value = line.Trim()
-                    .Replace("this.Location = new System.Drawing.Point(", string.Empty)
-                    .Replace(");", string.Empty)
-                    .Split(',');
-            if(value.Length>0)
-
-            Validate(value[0], xmlDocument);
         }
     }
 }

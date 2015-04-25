@@ -18,17 +18,22 @@ namespace Attributes
             }
         }
 
+        protected override List<string> ClearLineToGetValue
+        {
+            get
+            {
+                return new List<string>
+                {
+                    "this.Text = ",
+                    "\"",
+                    ";"
+                };
+            }
+        }
+
         public XamlContent(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            
-
-            var value = line.Trim().Replace("this.Text = ", String.Empty)
-                .Replace("\"", String.Empty)
-                .Replace(";", String.Empty)
-                .Trim();
-
-            Validate(value, xmlDocument);
         }
     }
 }

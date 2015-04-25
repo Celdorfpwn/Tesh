@@ -1,99 +1,19 @@
-<Window x:Class="WindowsFormsApplication1.Chrome" Width="1177" Height="641" Title="Chrome" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Window x:Class="WindowsFormsApplication1.Form3" Width="300" Height="300" Title="Form3" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
   <Grid>
     <Canvas>
-      <TabControl Canvas.Left="-2" Canvas.Top="0" Name="tabControl1" Height="602" Width="1162">
-        <TabItem Name="tabPage1" Header="Point of sale">
-          <Canvas>
-            <TabControl Canvas.Left="212" Canvas.Top="88" Name="tabControl2" Height="488" Width="939">
-              <TabItem Name="tabPage3" Header="Summary">
-                <Canvas />
-              </TabItem>
-              <TabItem Name="tabPage4" Header="Transaction History">
-                <Canvas />
-              </TabItem>
-              <TabItem Name="tabPage5" Header="Order #23432233432">
-                <Canvas>
-                  <DataGrid Canvas.Left="7" Canvas.Top="118" Name="dataGridView1" Height="179" Width="921">
-                    <DataGrid.Columns>
-                      <DataGridTextColumn Header="Part #" Width="*" />
-                      <DataGridTextColumn Header="ListPrice" Width="*" />
-                      <DataGridTextColumn Header="LineType" Width="*" />
-                      <DataGridTextColumn Header="Discount" Width="*" />
-                      <DataGridCheckBoxColumn Header="TaxExempt" Width="*" />
-                      <DataGridCheckBoxColumn Header="Reorder" Width="*" />
-                      <DataGridTextColumn Header="Notes" Width="*" />
-                    </DataGrid.Columns>
-                  </DataGrid>
-                </Canvas>
-              </TabItem>
-              <TabItem Name="tabPage6" Header="Order #223333445667">
-                <Canvas />
-              </TabItem>
-            </TabControl>
-            <Grid Canvas.Left="0" Canvas.Top="0" Name="tableLayoutPanel1" Height="82" Width="1154">
-              <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
-              </Grid.ColumnDefinitions>
-              <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-              </Grid.RowDefinitions>
-              <Canvas>
-                <Grid Canvas.Left="3" Canvas.Top="3" Name="tableLayoutPanel2" Height="76" Width="1148">
-                  <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                  </Grid.ColumnDefinitions>
-                  <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
-                    <RowDefinition Height="*" />
-                  </Grid.RowDefinitions>
-                  <Canvas>
-                    <TextBox Grid.Column="0" Grid.Row="0" FontFamily="Algerian" FontSize="16" FontWeight="Bold" TextDecorations="Underline,Strikethrough" Canvas.Left="3" Canvas.Top="3" Name="textBox1" Height="29" Width="223" TabIndex="0" Text="This is algerian bold" />
-                    <TextBox Grid.Column="1" Grid.Row="0" FontFamily="Consolas" FontSize="16" FontStyle="Italic" FontWeight="Bold" Canvas.Left="232" Canvas.Top="3" Name="textBox2" Height="26" Width="223" TabIndex="1" Text="Consolas Bold Italic" />
-                    <TextBox Grid.Column="2" Grid.Row="0" FontFamily="Snap ITC" FontSize="16" FontStyle="Italic" TextDecorations="Underline" Canvas.Left="461" Canvas.Top="3" Name="textBox3" Height="28" Width="223" TabIndex="2" Text="Sanp-ITC italic" />
-                    <TextBox Grid.Column="3" Grid.Row="0" FontFamily="Modern No. 20" FontSize="11" FontStyle="Normal" Canvas.Left="690" Canvas.Top="3" Name="textBox4" Height="19" Width="223" TabIndex="3" Text="Modern No. 20 regular" />
-                    <TextBox Grid.Column="4" Grid.Row="0" FontFamily="Monotype Corsiva" FontSize="19" FontStyle="Italic" Canvas.Left="919" Canvas.Top="3" Name="textBox5" Height="29" Width="226" TabIndex="4" Text="Monotype Corsiva" />
-                    <TextBox Grid.Column="0" Grid.Row="1" FontFamily="Mistral" FontSize="16" FontStyle="Normal" Canvas.Left="3" Canvas.Top="41" Name="textBox6" Height="27" Width="223" TabIndex="5" Text="Mistral" />
-                    <TextBox Grid.Column="1" Grid.Row="1" FontFamily="Gill Sans Ultra Bold" FontSize="11" TextDecorations="Strikethrough" Canvas.Left="232" Canvas.Top="41" Name="textBox7" Height="21" Width="223" TabIndex="6" Text="Gill Sans Ultra Bold" />
-                    <TextBox Grid.Column="2" Grid.Row="1" FontFamily="Papyrus" FontSize="16" FontStyle="Normal" Canvas.Left="461" Canvas.Top="41" Name="textBox8" Height="33" Width="223" TabIndex="7" Text="Papyrus" />
-                    <TextBox Grid.Column="3" Grid.Row="1" FontFamily="Microsoft Sans Serif" FontSize="11" FontStyle="Italic" FontWeight="Bold" Canvas.Left="690" Canvas.Top="41" Name="textBox9" Height="20" Width="223" TabIndex="8" Text="Microsoft Sans Serif" />
-                    <TextBox Grid.Column="4" Grid.Row="1" FontFamily="Rockwell" FontSize="11" FontStyle="Normal" Canvas.Left="919" Canvas.Top="41" Name="textBox10" Height="20" Width="225" TabIndex="9" Text="RockWell" />
-                  </Canvas>
-                </Grid>
-              </Canvas>
-            </Grid>
-            <TreeView Canvas.Left="0" Canvas.Top="88" Name="treeView1" Height="488" Width="205" TabIndex="1">
-              <TreeViewItem Header="Monday">
-                <TreeViewItem Header="Shop Monday 1" />
-              </TreeViewItem>
-              <TreeViewItem Header="Tuesday">
-                <TreeViewItem Header="Shop Tuesday 1" />
-                <TreeViewItem Header="Shop Tuesday 2" />
-                <TreeViewItem Header="Shop Tuesday 3" />
-              </TreeViewItem>
-              <TreeViewItem Header="Wednesday">
-                <TreeViewItem Header="Shop Wednesday 2" />
-              </TreeViewItem>
-              <TreeViewItem Header="Thursday">
-                <TreeViewItem Header="Node13" />
-              </TreeViewItem>
-              <TreeViewItem Header="Friday">
-                <TreeViewItem Header="Node14" />
-              </TreeViewItem>
-              <TreeViewItem Header="Saturday" />
-              <TreeViewItem Header="Sunday" />
-            </TreeView>
-          </Canvas>
-        </TabItem>
-        <TabItem Name="tabPage2" Header="Business Management">
-          <Canvas />
-        </TabItem>
-      </TabControl>
+      <Grid Canvas.Left="1" Canvas.Top="13" Name="tableLayoutPanel1" Height="100" Width="200">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*" />
+          <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Canvas>
+          <TextBox Grid.Column="0" Grid.Row="0" FontFamily="Rockwell Condensed" FontSize="11" FontWeight="Bold" TextDecorations="Underline,Strikethrough" Canvas.Left="3" Canvas.Top="3" Name="textBox1" Height="20" Width="94" TabIndex="0" Text="wtf" />
+        </Canvas>
+      </Grid>
     </Canvas>
   </Grid>
 </Window>

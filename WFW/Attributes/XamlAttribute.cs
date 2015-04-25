@@ -15,8 +15,22 @@ namespace Attributes
 
         public XmlAttribute XmlAttribute { get; protected set; }
 
+        protected virtual List<string> ClearLineToGetValue
+        {
+            get
+            {
+                return new List<string>();
+            }
+        }
+
         public XamlAttribute(string line,XmlDocument xmlDocument)
         {
+            Validate(GetValue(line), xmlDocument);
+        }
+
+        protected virtual string GetValue(string line)
+        {
+            return line.ReplaceAll(ClearLineToGetValue);
         }
 
         protected void Validate(string value,XmlDocument xmlDocument)
@@ -25,11 +39,11 @@ namespace Attributes
             {
                  XmlAttribute = xmlDocument.CreateAttribute(Wpf);
                  XmlAttribute.Value = value;
-                Processed = true;
+                 Processed = true;
             }
             else
             {
-                    Processed = false;
+                 Processed = false;
             }
         }
     }

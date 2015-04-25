@@ -14,15 +14,22 @@ namespace Attributes
             get { return "Header"; }
         }
 
+        protected override List<string> ClearLineToGetValue
+        {
+            get
+            {
+                return new List<string>
+                {
+                    "this.HeaderText = ",
+                    "\"",
+                    ";"
+                };
+            }
+        }
+
         public XamlHeader(string line, XmlDocument xmlDocument)
             :base(line,xmlDocument)
         {
-            var value = line.Trim().Replace("this.HeaderText = ", String.Empty)
-                .Replace("\"", String.Empty)
-                .Replace(";", String.Empty)
-                .Trim();
-
-            Validate(value, xmlDocument);
         }
     }
 }
